@@ -56,18 +56,18 @@
   {
     "symbol": "GOLD",
     "yahooTicker": "GC%3DF",
-    "price": "4,646.60",
-    "change": "-17.40",
-    "changePct": "-0.37%",
+    "price": "4,655.40",
+    "change": "-8.60",
+    "changePct": "-0.18%",
     "positive": false,
     "prefix": "$"
   },
   {
     "symbol": "CRUDE OIL",
     "yahooTicker": "CL%3DF",
-    "price": "82.96",
-    "change": "-0.57",
-    "changePct": "-0.68%",
+    "price": "82.73",
+    "change": "-0.80",
+    "changePct": "-0.96%",
     "positive": false,
     "prefix": "$"
   },

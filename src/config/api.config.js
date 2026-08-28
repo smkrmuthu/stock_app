@@ -3,16 +3,26 @@
  * API endpoint definitions and key configuration.
  * Keys are read from environment variables (import.meta.env) in Vite.
  * Create a `.env` file in the project root with your keys.
- *
- * Example .env:
- *   VITE_ALPHA_VANTAGE_KEY=your_key_here
- *   VITE_NEWS_API_KEY=your_key_here
  */
 
 export const API_CONFIG = {
   /**
+   * Frankfurter API — Open, up-to-date foreign exchange rates from the European Central Bank (ECB).
+   * Free, open-source, no API key required, with native CORS support.
+   * Website: https://frankfurter.dev/
+   */
+  frankfurter: {
+    baseUrl: 'https://api.frankfurter.dev/v1',
+    fallbackUrl: 'https://api.frankfurter.app',
+    endpoints: {
+      latest: '/latest',
+      currencies: '/currencies',
+    },
+  },
+
+  /**
    * Alpha Vantage — Stock quotes, historical data, technical indicators.
-   * Free tier: 25 requests/day.  Premium tiers available.
+   * Free tier: 25 requests/day. Premium tiers available.
    * Sign up: https://www.alphavantage.co/support/#api-key
    */
   alphaVantage: {
