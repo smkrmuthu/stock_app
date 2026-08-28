@@ -1,0 +1,20 @@
+{
+  "name": "StockPulse — Live Stock Market & Trading Dashboard",
+  "short_name": "StockPulse",
+  "description": "Professional Real-Time Stock Market Dashboard, Live Quotes, Candlestick Charts, Currency FX & Google News Feed",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090d16",
+  "theme_color": "#0f172a",
+  "categories": ["finance", "productivity", "business"],
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
