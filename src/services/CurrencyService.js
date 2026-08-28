@@ -114,16 +114,9 @@ class CurrencyService {
           }
         }
       } catch (e) {
-        // Fallback to active micro-drift
+        // Keep current rates without artificial drift
       }
 
-      // Micro-drift simulation to keep rates feeling dynamic if offline
-      Object.keys(this._rates).forEach((code) => {
-        if (code !== 'USD') {
-          const drift = (Math.random() - 0.49) * 0.0005 * this._rates[code].rateVsUSD;
-          this._rates[code].rateVsUSD = +(this._rates[code].rateVsUSD + drift).toFixed(4);
-        }
-      });
       this._lastUpdated = new Date().toISOString();
       this._notify();
     })().finally(() => {
@@ -146,7 +139,7 @@ class CurrencyService {
       const fromCurr = this.getCurrency(p.from);
       const toCurr = this.getCurrency(p.to);
       const rate = +(toCurr.rateVsUSD / fromCurr.rateVsUSD).toFixed(4);
-      const change24h = +(p.baseChange + (Math.random() - 0.5) * 0.04).toFixed(2);
+      const change24h = p.baseChange;
       const high24h = +(rate * 1.0025).toFixed(4);
       const low24h = +(rate * 0.9975).toFixed(4);
       return { ...p, rate, change24h, high24h, low24h };

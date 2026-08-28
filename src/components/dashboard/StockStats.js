@@ -84,8 +84,8 @@ export class StockStats {
           Key Statistics
         </div>
         <div class="last-updated">
-          <span style="font-size: 10px;">🔄</span>
-          <span>${this._formatTime(stock.lastUpdated)}</span>
+          <span style="font-size: 10px;">🕒</span>
+          <span>${this._formatTime(stock._fetchedAt || stock.lastUpdated)}</span>
         </div>
       </div>
 
@@ -123,10 +123,14 @@ export class StockStats {
   }
 
   _formatTime(iso) {
-    return new Date(iso).toLocaleTimeString('en-IN', {
+    if (!iso) return 'Market Closed';
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return 'Market Closed';
+    return d.toLocaleTimeString('en-IN', {
+      timeZone: 'Asia/Kolkata',
       hour: '2-digit',
       minute: '2-digit',
       second: '2-digit',
-    });
+    }) + ' IST';
   }
 }
