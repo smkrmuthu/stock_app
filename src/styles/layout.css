@@ -232,6 +232,60 @@
   z-index: 50;
 }
 
+/* ── Mobile Bottom Navigation Bar ────────────────────────── */
+.mobile-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(58px + env(safe-area-inset-bottom, 0px));
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: var(--color-bg-topbar);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-top: 1px solid var(--color-border);
+  z-index: 999;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-nav__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  text-decoration: none;
+  color: var(--color-text-muted);
+  font-size: 11px;
+  font-weight: var(--fw-semibold);
+  gap: 2px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.15s ease, transform 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.mobile-nav__item:hover,
+.mobile-nav__item.active {
+  color: var(--color-brand-light);
+}
+
+.mobile-nav__item.active .mobile-nav__icon {
+  transform: scale(1.18);
+}
+
+.mobile-nav__icon {
+  font-size: 19px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+
 /* ── Responsive ─────────────────────────────────────────── */
 @media (max-width: 1200px) {
   :root {
@@ -242,12 +296,67 @@
 @media (max-width: 960px) {
   .sidebar {
     transform: translateX(-100%);
-  }
-  .dashboard-area {
-    margin-left: 0;
-    margin-right: 0;
+    display: none !important;
   }
   .news-panel {
     display: none;
+  }
+  /* Show news panel when inside dedicated full-view news page */
+  .news-page-container .news-panel {
+    display: flex;
+    position: static;
+    width: 100%;
+    min-width: 100%;
+    border-left: none;
+    border-top: none;
+    height: auto;
+    max-height: 80vh;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+  .topbar {
+    padding: 0 var(--space-3);
+    gap: var(--space-2);
+  }
+  .topbar__subtitle {
+    display: none;
+  }
+  .topbar__brand {
+    gap: var(--space-2);
+  }
+  .dashboard-area {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: var(--space-3) var(--space-3);
+    padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+    min-height: auto;
+  }
+  .main-content {
+    margin-bottom: calc(58px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@media (max-width: 600px) {
+  .topbar__title {
+    font-size: var(--text-sm);
+  }
+  .topbar__logo {
+    width: 30px;
+    height: 30px;
+    font-size: var(--text-sm);
+  }
+  .last-updated#clock-display {
+    display: none;
+  }
+  .market-badge {
+    padding: 2px 6px;
+    font-size: 10px;
+  }
+  .stock-price {
+    font-size: var(--text-3xl) !important;
+  }
+  .stock-symbol {
+    font-size: var(--text-2xl) !important;
   }
 }

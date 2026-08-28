@@ -938,3 +938,44 @@
   box-shadow: var(--shadow-md);
   pointer-events: none;
 }
+
+/* ── Currency FX Converter Responsive Grid ──────────────── */
+.fx-converter-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: var(--space-4);
+  align-items: flex-end;
+}
+
+@media (max-width: 640px) {
+  .fx-converter-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+  .fx-swap-wrapper {
+    justify-content: center;
+    padding: var(--space-1) 0;
+  }
+  .chart-canvas-wrapper {
+    height: 280px !important;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: var(--space-2) !important;
+  }
+  .stat-card {
+    padding: var(--space-3) var(--space-3) !important;
+  }
+  .stat-value {
+    font-size: var(--text-base) !important;
+  }
+  .quick-picks-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: var(--space-1);
+    scrollbar-width: none;
+  }
+  .quick-picks-bar::-webkit-scrollbar {
+    display: none;
+  }
+}

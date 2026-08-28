@@ -96,9 +96,9 @@ export class CurrencyConverter {
           </div>
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: var(--space-4); align-items: flex-end; margin-bottom: var(--space-6);">
+        <div class="fx-converter-grid" style="align-items: flex-end; margin-bottom: var(--space-6);">
           <!-- From Column -->
-          <div style="display: flex; flex-direction: column; gap: var(--space-2);">
+          <div class="fx-col" style="display: flex; flex-direction: column; gap: var(--space-2);">
             <label for="fx-amount-input" style="font-size: var(--text-xs); color: var(--color-text-secondary); font-weight: var(--fw-medium);">
               Amount
             </label>
@@ -117,7 +117,7 @@ export class CurrencyConverter {
           </div>
 
           <!-- Swap Button -->
-          <div style="padding-bottom: 2px;">
+          <div class="fx-swap-wrapper" style="padding-bottom: 2px; display: flex; justify-content: center;">
             <button
               id="fx-swap-btn"
               type="button"

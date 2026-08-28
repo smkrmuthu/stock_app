@@ -54,13 +54,14 @@ export class CandlestickChart {
         </div>
 
         <!-- Canvas -->
-        <div style="position: relative; width: 100%; height: 380px;">
-          <canvas id="candlestick-canvas" style="width: 100%; height: 100%; display: block;"></canvas>
+        <div class="chart-canvas-wrapper" style="position: relative; width: 100%; height: 360px;">
+          <canvas id="candlestick-canvas" style="width: 100%; height: 100%; display: block; touch-action: none;"></canvas>
           <div id="chart-tooltip" style="
             display: none; position: absolute; pointer-events: none; z-index: 10;
             background: var(--color-bg-card); border: 1px solid var(--color-border);
             padding: 8px 12px; font-size: 11px; color: var(--color-text-primary);
             font-family: var(--font-sans); line-height: 1.6; white-space: nowrap;
+            border-radius: var(--radius-sm); box-shadow: var(--shadow-md);
           "></div>
           <div id="chart-crosshair-x" style="display:none; position:absolute; top:0; width:1px; height:100%; background: var(--color-border); pointer-events:none;"></div>
           <div id="chart-crosshair-y" style="display:none; position:absolute; left:0; height:1px; width:100%; background: var(--color-border); pointer-events:none;"></div>
@@ -130,6 +131,21 @@ export class CandlestickChart {
     // Mouse move for crosshair + tooltip
     this._canvas.addEventListener('mousemove', (e) => this._handleMouseMove(e));
     this._canvas.addEventListener('mouseleave', () => this._hideTooltip());
+
+    // Touch support for mobile devices
+    this._canvas.addEventListener('touchstart', (e) => {
+      if (e.touches && e.touches[0]) {
+        this._handleMouseMove(e.touches[0]);
+      }
+    }, { passive: true });
+
+    this._canvas.addEventListener('touchmove', (e) => {
+      if (e.touches && e.touches[0]) {
+        this._handleMouseMove(e.touches[0]);
+      }
+    }, { passive: true });
+
+    this._canvas.addEventListener('touchend', () => this._hideTooltip());
   }
 
   _handleMouseMove(e) {

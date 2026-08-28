@@ -515,3 +515,27 @@ td { padding: var(--space-2); border-bottom: 1px solid var(--color-border); }
 .welcome-state__icon, .market-badge__dot, .refresh-indicator__dot, .ticker-track {
   animation: none !important;
 }
+
+/* ── Mobile responsiveness for modernist theme ───────────── */
+@media (max-width: 960px) {
+  .mobile-nav {
+    display: flex;
+    background: var(--color-bg-primary);
+    border-top: 2px solid var(--color-border);
+  }
+  .mobile-nav__item.active {
+    color: var(--color-brand);
+    font-weight: 800;
+  }
+  .search-dropdown {
+    width: 100vw;
+    left: calc(-1 * var(--space-3));
+    right: 0;
+    max-height: 60vh;
+    border-radius: 0;
+  }
+  .suggestion-item {
+    min-height: 48px;
+    padding: 10px 14px;
+  }
+}
