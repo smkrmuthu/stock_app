@@ -23,14 +23,14 @@ import indicesSnapshot from '../../data/indices_snapshot.json';
 const QUICK_PICKS = ['RELIANCE', 'TCS', 'INFY', 'HDFCBANK', 'ICICIBANK', 'SBIN', 'LT', 'ITC', 'AAPL', 'TSLA', 'NVDA'];
 
 const TICKER_FALLBACK = indicesSnapshot && indicesSnapshot.length > 0 ? indicesSnapshot : [
-  { symbol: 'SENSEX',    yahooTicker: '%5EBSESN',   price: '77,264.51', change: '-208.39', changePct: '-0.27%', positive: false, prefix: '' },
-  { symbol: 'NIFTY 50',  yahooTicker: '%5ENSEI',    price: '24,175.65', change: '-32.15',  changePct: '-0.13%', positive: false, prefix: '' },
-  { symbol: 'NIFTY BANK',yahooTicker: '%5ENSEBANK',  price: '57,496.30', change: '-287.50', changePct: '-0.50%', positive: false, prefix: '' },
-  { symbol: 'S&P 500',   yahooTicker: '%5EGSPC',    price: '7,730.99',  change: '+55.29',  changePct: '+0.72%', positive: true,  prefix: '' },
-  { symbol: 'NASDAQ',    yahooTicker: '%5EIXIC',    price: '26,541.35', change: '+411.15', changePct: '+1.57%', positive: true,  prefix: '' },
-  { symbol: 'DOW JONES', yahooTicker: '%5EDJI',     price: '53,569.44', change: '+105.54', changePct: '+0.20%', positive: true,  prefix: '' },
-  { symbol: 'GOLD',      yahooTicker: 'GC%3DF',     price: '4,647.70',  change: '-16.80',  changePct: '-0.35%', positive: false, prefix: '$' },
-  { symbol: 'CRUDE OIL', yahooTicker: 'CL%3DF',     price: '83.11',     change: '-0.41',   changePct: '-0.50%', positive: false, prefix: '$' },
+  { symbol: 'SENSEX',    yahooTicker: '%5EBSESN',   price: '77,264.51', change: '+330.91', changePct: '+0.43%', positive: true,  prefix: '' },
+  { symbol: 'NIFTY 50',  yahooTicker: '%5ENSEI',    price: '24,175.65', change: '+84.80',  changePct: '+0.35%', positive: true,  prefix: '' },
+  { symbol: 'NIFTY BANK',yahooTicker: '%5ENSEBANK',  price: '57,496.30', change: '-13.65',  changePct: '-0.02%', positive: false, prefix: '' },
+  { symbol: 'S&P 500',   yahooTicker: '%5EGSPC',    price: '7,738.90',  change: '+7.80',   changePct: '+0.10%', positive: true,  prefix: '' },
+  { symbol: 'NASDAQ',    yahooTicker: '%5EIXIC',    price: '26,554.96', change: '+13.61',  changePct: '+0.05%', positive: true,  prefix: '' },
+  { symbol: 'DOW JONES', yahooTicker: '%5EDJI',     price: '53,659.36', change: '+89.92',  changePct: '+0.17%', positive: true,  prefix: '' },
+  { symbol: 'GOLD',      yahooTicker: 'GC%3DF',     price: '4,656.30',  change: '-7.90',   changePct: '-0.17%', positive: false, prefix: '$' },
+  { symbol: 'CRUDE OIL', yahooTicker: 'CL%3DF',     price: '82.74',     change: '-0.79',   changePct: '-0.95%', positive: false, prefix: '$' },
   { symbol: 'USD/INR',   yahooTicker: 'USDINR%3DX', price: '95.37',     change: '-0.16',   changePct: '-0.17%', positive: false, prefix: '₹' },
 ];
 

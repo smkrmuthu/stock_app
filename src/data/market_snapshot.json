@@ -22,7 +22,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:56.306Z"
+    "_fetchedAt": "2026-08-28T13:56:49.048Z"
   },
   "TCS": {
     "symbol": "TCS",
@@ -47,7 +47,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:56.609Z"
+    "_fetchedAt": "2026-08-28T13:56:49.551Z"
   },
   "INFY": {
     "symbol": "INFY",
@@ -72,7 +72,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:56.960Z"
+    "_fetchedAt": "2026-08-28T13:56:49.876Z"
   },
   "HDFCBANK": {
     "symbol": "HDFCBANK",
@@ -97,7 +97,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:57.393Z"
+    "_fetchedAt": "2026-08-28T13:56:50.183Z"
   },
   "ICICIBANK": {
     "symbol": "ICICIBANK",
@@ -122,7 +122,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:57.688Z"
+    "_fetchedAt": "2026-08-28T13:56:50.485Z"
   },
   "SBIN": {
     "symbol": "SBIN",
@@ -147,7 +147,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:58.107Z"
+    "_fetchedAt": "2026-08-28T13:56:50.887Z"
   },
   "LT": {
     "symbol": "LT",
@@ -172,7 +172,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:58.407Z"
+    "_fetchedAt": "2026-08-28T13:56:51.196Z"
   },
   "ITC": {
     "symbol": "ITC",
@@ -197,7 +197,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:58.822Z"
+    "_fetchedAt": "2026-08-28T13:56:51.701Z"
   },
   "BHARTIARTL": {
     "symbol": "BHARTIARTL",
@@ -222,7 +222,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:59.234Z"
+    "_fetchedAt": "2026-08-28T13:56:52.111Z"
   },
   "TATASTEEL": {
     "symbol": "TATASTEEL",
@@ -247,7 +247,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:59.563Z"
+    "_fetchedAt": "2026-08-28T13:56:52.420Z"
   },
   "HATSUN": {
     "symbol": "HATSUN",
@@ -272,7 +272,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:50:59.868Z"
+    "_fetchedAt": "2026-08-28T13:56:52.829Z"
   },
   "DODLA": {
     "symbol": "DODLA",
@@ -297,7 +297,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:51:00.896Z"
+    "_fetchedAt": "2026-08-28T13:56:53.866Z"
   },
   "20MICRONS": {
     "symbol": "20MICRONS",
@@ -322,7 +322,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:51:01.588Z"
+    "_fetchedAt": "2026-08-28T13:56:54.641Z"
   },
   "AAPL": {
     "symbol": "AAPL",
@@ -330,15 +330,15 @@
     "exchange": "NASDAQ",
     "sector": "Technology",
     "industry": "Consumer Electronics & Software",
-    "price": 315.8,
-    "change": 1.22,
-    "changePercent": 0.39,
+    "price": 315.97,
+    "change": 1.39,
+    "changePercent": 0.44,
     "open": 317.09,
     "high": 318.13,
-    "low": 315.5,
+    "low": 315.45,
     "previousClose": 314.58,
-    "volume": 3606606,
-    "avgVolume": 3606606,
+    "volume": 3999442,
+    "avgVolume": 3999442,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -347,7 +347,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:51:01.895Z"
+    "_fetchedAt": "2026-08-28T13:56:55.047Z"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -355,15 +355,15 @@
     "exchange": "NASDAQ",
     "sector": "Consumer Cyclical",
     "industry": "EV & Clean Energy",
-    "price": 355.5,
-    "change": 0.69,
-    "changePercent": 0.19,
+    "price": 355.74,
+    "change": 0.93,
+    "changePercent": 0.26,
     "open": 357.1,
     "high": 358.8,
-    "low": 354.92,
+    "low": 354.62,
     "previousClose": 354.81,
-    "volume": 5177016,
-    "avgVolume": 5177016,
+    "volume": 5792972,
+    "avgVolume": 5792972,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -372,7 +372,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:51:02.241Z"
+    "_fetchedAt": "2026-08-28T13:56:55.346Z"
   },
   "NVDA": {
     "symbol": "NVDA",
@@ -380,15 +380,15 @@
     "exchange": "NASDAQ",
     "sector": "Technology",
     "industry": "AI Hardware & Semiconductors",
-    "price": 225.85,
-    "change": -2.13,
-    "changePercent": -0.93,
+    "price": 225.21,
+    "change": -2.77,
+    "changePercent": -1.22,
     "open": 227.33,
     "high": 229.26,
-    "low": 225.72,
+    "low": 224.66,
     "previousClose": 227.98,
-    "volume": 23510646,
-    "avgVolume": 23510646,
+    "volume": 27986227,
+    "avgVolume": 27986227,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -397,7 +397,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:51:02.537Z"
+    "_fetchedAt": "2026-08-28T13:56:55.639Z"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -405,15 +405,15 @@
     "exchange": "NASDAQ",
     "sector": "Technology",
     "industry": "Cloud & Enterprise Software",
-    "price": 512.23,
-    "change": 7.17,
-    "changePercent": 1.42,
+    "price": 510.25,
+    "change": 5.19,
+    "changePercent": 1.03,
     "open": 505.33,
     "high": 513.14,
     "low": 504.87,
     "previousClose": 505.06,
-    "volume": 3359237,
-    "avgVolume": 3359237,
+    "volume": 3744171,
+    "avgVolume": 3744171,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -422,7 +422,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:51:03.002Z"
+    "_fetchedAt": "2026-08-28T13:56:56.001Z"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -430,15 +430,15 @@
     "exchange": "NASDAQ",
     "sector": "Communication",
     "industry": "Internet & Search Engine",
-    "price": 343.11,
-    "change": 2.46,
-    "changePercent": 0.72,
+    "price": 343.74,
+    "change": 3.09,
+    "changePercent": 0.91,
     "open": 340.76,
-    "high": 343.4,
+    "high": 344,
     "low": 340.27,
     "previousClose": 340.65,
-    "volume": 1742141,
-    "avgVolume": 1742141,
+    "volume": 2159962,
+    "avgVolume": 2159962,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -447,7 +447,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:51:03.307Z"
+    "_fetchedAt": "2026-08-28T13:56:56.299Z"
   },
   "AMZN": {
     "symbol": "AMZN",
@@ -455,15 +455,15 @@
     "exchange": "NASDAQ",
     "sector": "Consumer Cyclical",
     "industry": "E-Commerce & AWS Cloud",
-    "price": 259.34,
-    "change": 3.08,
-    "changePercent": 1.2,
+    "price": 259.32,
+    "change": 3.06,
+    "changePercent": 1.19,
     "open": 258.32,
-    "high": 259.75,
+    "high": 259.77,
     "low": 257.78,
     "previousClose": 256.26,
-    "volume": 3309402,
-    "avgVolume": 3309402,
+    "volume": 3897941,
+    "avgVolume": 3897941,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -472,6 +472,6 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T13:51:03.739Z"
+    "_fetchedAt": "2026-08-28T13:56:56.596Z"
   }
 }

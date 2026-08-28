@@ -1,6 +1,21 @@
 [
   {
-    "id": "gnews-world-3",
+    "id": "gnews-world-0",
+    "category": "world",
+    "title": "S&P 500 futures are little changed as investors count down to Warsh's Jackson Hole address: Live updates",
+    "summary": "CNBC • 06:37 pm IST",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rNFZvcEhsdFdNUWJGaHNfck9XLWRYbTZoeURzSjQ2MTdCbVVsaXBKei1IUEx3VmsyNjRPaFVYaU5udmtxUzB0QmlCbWVZcUk3QlF5OWhOdGdnb3ZzTGl0UjE3Q2p4ZlZaRk5vdGZ2R0I4SGEtT2VN0gF8QVVfeXFMTWxKRVZ3YVptQm9SMGdOMUxkQXAxY1J2NkQyTXBWTi1SNHlqRlVmTi11V2lVYTJ3UFVxU3NQTzZFTFNkb1RoNjktSy1CQmhjN2w3d3NkWk1CdG5vZkJjZGo1R1lNYjgxZ1VGUlFfSTJMY1ZJc0NIZ0NjR29JUg?oc=5",
+    "publishedAt": "2026-08-28T13:07:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "CNBC",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-2",
     "category": "world",
     "title": "Cyclospora lettuce outbreak now tied to 20 states",
     "summary": "The Washington Post • 06:24 pm IST",
@@ -15,22 +30,22 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-0",
-    "category": "world",
-    "title": "Stock Market Today: Fed Chair Warsh to Speak at Jackson Hole; Dow Futures Steady — Live Updates",
-    "summary": "WSJ • 06:09 pm IST",
-    "source": "WSJ",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcy1EbHZIa2FzZjNOekZJaDBkdWplblJYUXNsekdjcjU4NUhFNzdFbDhfQ2l5THZrbTdtV2JGUUlvNUJhNTdfenFEWlRCRkxHSnRab1VvdVFDNTRkWGdaNVc2TWJDM28tMTZRd0hjNjRtMmMwaGdRa21CSzZFWTJpeg?oc=5",
-    "publishedAt": "2026-08-28T12:39:00.000Z",
-    "sentiment": "positive",
+    "id": "gnews-india-24",
+    "category": "india",
+    "title": "Mahindra Brings BaaS To XEV 9S & XEV 9e, Priced From Rs. 11.45 Lakh",
+    "summary": "Gaadiwaadi.com • 05:42 pm IST",
+    "source": "Gaadiwaadi.com",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcDM1ZVZBdmxjM1ZDQ3JVLTJ2Nm9vVUFnbTdoSlBvZ3EybG1fZ3k5Y0hERXVETGdjQTJNRVNNZ0xvNUV4MTlwd3huRlhFVkVodUVTRzdXdXZnTjRhdjVFdDVNNXN0WlJpSm5YRmtmUzhuZWNLUWE0QlNiaFREOEJDYS1BTG84UmtXOFdIV2cxTWPSAZABQVVfeXFMUHAzNWVWQXZsYzNWQ0NyVS0ydjZvb1VBZ203aEpQb2dxMmxtX2d5OWNIREV1RExnY0EyTUVTTWdMbzVFeDE5cHd4bkZYRVZFaHVFU0c3V3V2Z040YXY1RXQ1TTVzdFpSaUpuWEZrZlM4bmVjS1FhNEJTYmhURDhCQ2EtQUxvOFJrVzhXSFdnMU1j?oc=5",
+    "publishedAt": "2026-08-28T12:12:27.000Z",
+    "sentiment": "neutral",
     "tags": [
-      "WSJ",
-      "WORLD"
+      "Gaadiwaadi.com",
+      "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "gnews-india-13",
+    "id": "gnews-india-14",
     "category": "india",
     "title": "PayPal Dives As Advent-Stripe Group Said To Drop Pursuit Of Payments Giant",
     "summary": "Investor's Business Daily • 05:42 pm IST",
@@ -60,7 +75,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-16",
+    "id": "gnews-world-15",
     "category": "world",
     "title": "Japan Spent Record $98.7 Billion to Prop Up Yen in Past Month",
     "summary": "WSJ • 04:56 pm IST",
@@ -75,7 +90,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-27",
+    "id": "gnews-world-22",
     "category": "world",
     "title": "Here are the top-growing jobs in the country",
     "summary": "Axios • 04:30 pm IST",
@@ -120,7 +135,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-9",
+    "id": "gnews-world-7",
     "category": "world",
     "title": "'I'm in favor of taxes,' says Nvidia's Jensen Huang—but he doesn't agree with Bill Gates on his plan to slow an AI fallout",
     "summary": "Fortune • 03:53 pm IST",
@@ -135,22 +150,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-2",
-    "category": "world",
-    "title": "Marvell shares tumble 8% as outlook underwhelms despite 37% revenue growth",
-    "summary": "CNBC • 03:49 pm IST",
-    "source": "CNBC",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYl9tcXFQeFdWemVHTXBxVXNiaFFPLVJUU3R5V05Vd0xBdFU1NGd4VnJBZUZpNHREZlJSX2pYcXhCX0VibHMxS0kxNkZnLXdtaWhCNmw1Y3Fla2tSQ3YwRjNoRzNrVlExZjEtaHN2dlA5UGVJaUY3b9IBfkFVX3lxTE1Pdk0zWE1wQl80T2FEaWFlU05kMUYtSEY4SEtXVkVOWU9CVWJZM2p1NWk0dXNQenVzWWhsc2U3THJnQ290d3J3Y1hremFfcVJUZ3YwQ2pNbG9ETzNfUlNhMkdyQ2NZRUw4dzJYbEpXS2pEU2pPSkZJV25SMTRCdw?oc=5",
-    "publishedAt": "2026-08-28T10:19:13.000Z",
-    "sentiment": "positive",
-    "tags": [
-      "CNBC",
-      "WORLD"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "gnews-world-22",
+    "id": "gnews-world-28",
     "category": "world",
     "title": "China is a Threat to Biotech’s Massive Bull Run",
     "summary": "WSJ • 03:41 pm IST",
@@ -165,7 +165,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-6",
+    "id": "gnews-world-8",
     "category": "world",
     "title": "4 Beaten-Down Stocks With Average 134% EPS Growth Ready To Rally",
     "summary": "Seeking Alpha • 03:30 pm IST",
@@ -180,7 +180,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-10",
+    "id": "gnews-india-11",
     "category": "india",
     "title": "Hundreds of AI agents coordinated to hack Hugging Face; researchers discover they can act like ‘digital s",
     "summary": "The Times of India • 03:05 pm IST",
@@ -210,7 +210,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-13",
+    "id": "gnews-world-12",
     "category": "world",
     "title": "Musk’s AI company sues its users as victim lawsuits over Grok deepfakes mount",
     "summary": "Politico • 02:30 pm IST",
@@ -225,7 +225,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-27",
+    "id": "gnews-india-28",
     "category": "india",
     "title": "Meta's India and Southeast Asia VP Sandhya Devanathan to step down",
     "summary": "Moneycontrol.com • 01:46 pm IST",
@@ -270,7 +270,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-25",
+    "id": "gnews-india-26",
     "category": "india",
     "title": "2027 Toyota Innova Hycross Facelift Front Leaks - New Sportier Presence",
     "summary": "RushLane • 12:50 pm IST",
@@ -285,7 +285,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-11",
+    "id": "gnews-india-12",
     "category": "india",
     "title": "Sensex falls 350 pts from day's high, Nifty below 24,100: Key reasons behind market decline",
     "summary": "Moneycontrol.com • 11:47 am IST",
@@ -315,7 +315,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-24",
+    "id": "gnews-india-25",
     "category": "india",
     "title": "TVS Motor Company appoints Peyman Kargar as Director & CEO",
     "summary": "Exchange4Media • 11:07 am IST",
@@ -330,7 +330,22 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-12",
+    "id": "gnews-world-3",
+    "category": "world",
+    "title": "Marvell Technology Inc (MRVL) (Q2 2027) Earnings Call Highlights: Record Revenue and Massive ...",
+    "summary": "Yahoo Finance • 10:31 am IST",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNU90THNyQjNZQS11Yk5leElKa19rbWJRVHk1YTkxTmNQNEV3QVZJWDdnWnE1NGVoWDB1SFpLLU1OTTZUQ1V2blVyLThqdExCSUppdXdyTDhQOTA2RlU5ZVZfaVpMUlNVN08zLUl2QzhqMnh2eVJvdDlRNmVBUEJoVjlXVHhiY2RyX215bkgtZU41dnFpUnVneUs5TQ?oc=5",
+    "publishedAt": "2026-08-28T05:01:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "Yahoo Finance",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-13",
     "category": "india",
     "title": "Gold monetisation: Manappuram, MCX among Jefferies top stock picks",
     "summary": "Business Standard • 10:04 am IST",
@@ -345,32 +360,17 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-6",
-    "category": "india",
-    "title": "Morning Bid: Warsh heads into Jackson Hole hot seat",
-    "summary": "Reuters • 10:01 am IST",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxQm90VXdGYWc0WDM4SndsU0J3UHFIcDllWGxmZlo4VklpYWRxR3NleVdwRjdTMHcwbHE3NE5MZk9KR01FRVl4cU1EdUNHMkxtVTN0QUdwOFE0ZGJsNDJkZnpIT2xHUkkxWE1leEJUQlFqYzRhR2RqdllCYk8zREE?oc=5",
-    "publishedAt": "2026-08-28T04:31:00.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "Reuters",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "gnews-india-29",
-    "category": "india",
-    "title": "Yamaha YZF-R2 vs R15 V4: Is Rs. 2.30 Lakh Worth the Jump?",
-    "summary": "BikeWale • 09:06 am IST",
-    "source": "BikeWale",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdG9HRTlIUVlnOEpLMnlpTFoyRGlGaUg5c3NwYnRoMjR2NlJnZHlLSWtYZFM4N0pnV2x1U0VyWUM1NXR5a2RUSFJVQkZuNFBNaEVGVngzMTFTZWl6Z0hrbHhCeGhFYW9PdHhNd2N4dUpHa1hRVHEwcXRveGlBelhwSFIzWHc5UUZtcjVyNQ?oc=5",
-    "publishedAt": "2026-08-28T03:36:29.000Z",
+    "id": "gnews-world-9",
+    "category": "world",
+    "title": "FDA just approved updated covid shots. Here’s what to know as cases edge upward.",
+    "summary": "The Washington Post • 09:55 am IST",
+    "source": "The Washington Post",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaDk2UGtzQzFub2xpSlp1TmVFa09PbW95RVN0aEpIRlFYelJ6SHo3eEphYnhBbWxrVjNMWFk2UmxDeTVGZk9FMHdxTmEybkNEeG1oS2JQTnVrT3lUVG52OVlZY25feVRJVnR1UUk4TEhEbFpVaEVEZXZKRWNhQUswT1pFUTB2aVJpdXcwNlhvZTRhSTYyQU1waDdMOEppVDVtQnk1TGl6ODV1TkhRdXktVlFBUkI?oc=5",
+    "publishedAt": "2026-08-28T04:25:45.000Z",
     "sentiment": "positive",
     "tags": [
-      "BikeWale",
-      "INDIA"
+      "The Washington Post",
+      "WORLD"
     ],
     "symbols": []
   },
@@ -390,7 +390,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-10",
+    "id": "gnews-world-6",
     "category": "world",
     "title": "Gold inches lower ahead of Fed Chair Warsh's Jackson Hole remarks",
     "summary": "Reuters • 07:50 am IST",
@@ -435,22 +435,22 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-7",
-    "category": "world",
-    "title": "FDA approves updated Covid-19 vaccines for dominant XFG variant",
-    "summary": "The Guardian • 06:49 am IST",
-    "source": "The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRG5oN05kRVZzeF91Y29qWkNiVjM1ei1wRndRZkJlQm5pU25QZTVrTThkYXRyUFNhR0tVdlpxRldJSzFUMUVJanlldnl0VmdxMlE0UlktZnRxVkJZbkNjaGctcmlTMzlIRmVkZUhSUGtDTHBVNEtMd29XNGhPVjYyazJhNy15bnNieWxDRF81Yw?oc=5",
-    "publishedAt": "2026-08-28T01:19:00.000Z",
-    "sentiment": "positive",
+    "id": "gnews-india-6",
+    "category": "india",
+    "title": "U.S. stocks mostly flat at the open as traders await Warsh’s Jackson Hole speech",
+    "summary": "Investing.com • 06:25 am IST",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa3NuQ1hJMWVzRHZuQklVaVE4dlJkRlJhNngzOWFpcWFWMzJtcC00ZWlFLXNOYU81Qy1vcnV5bEhDdXRIZnNRMnpxME5jV25XVDVtNWc1S3U5RENXQmY3Rlg1S3laWnNxanFhTWtSeDc0dTNvUkc4d3llRUtRcUt0VXg5Qjl6VVR2WXVPMk9HU0I5QW0xamI5OEhaTTVnMEJBODFHbDJrM2RWQ24tTUNnOERYcW9JaHBFYm5BWFd2SnU4Ym9FZWdNZkJvODg0aUE?oc=5",
+    "publishedAt": "2026-08-28T00:55:37.000Z",
+    "sentiment": "neutral",
     "tags": [
-      "The Guardian",
-      "WORLD"
+      "Investing.com",
+      "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "gnews-world-25",
+    "id": "gnews-world-24",
     "category": "world",
     "title": "Mamdani Turns to Team of CEO Advisers After Clashes With New York Business Elite",
     "summary": "WSJ • 05:27 am IST",
@@ -465,7 +465,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-23",
+    "id": "gnews-world-21",
     "category": "world",
     "title": "US officials weigh plan to shield farmers from expansion of refinery biofuel waivers, sources say",
     "summary": "Reuters • 05:15 am IST",
@@ -480,22 +480,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-8",
-    "category": "world",
-    "title": "Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports",
-    "summary": "Reuters • 04:52 am IST",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYkFHVHZ6Sk1JRExqTlk1Zl9VSGFEN0FHSXIxbXdhNllud1dSMWFoWWNiTUJ6V1Fqb3M2U2JvdWFNS3VMMS1rOGFhaU51RGFXR0EyQkpHWFBnaVB5d3pWdktTM1Q1SlhkblB6RTJHdUx1WVJJQ19xVzlaVldXOVVXbjRFemN2X0hmb25UNXNvb0dmUjUxZktXcTdTeGhMNmVsTnEyODFYYk1KQ2ZFOWlHYVozTl8yU0E?oc=5",
-    "publishedAt": "2026-08-27T23:22:11.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "Reuters",
-      "WORLD"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "gnews-world-14",
+    "id": "gnews-world-13",
     "category": "world",
     "title": "Frozen Buffalo Chicken Recall: Highest Risk Warning Over Food Safety",
     "summary": "Newsweek • 04:29 am IST",
@@ -510,22 +495,22 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-12",
+    "id": "gnews-world-10",
     "category": "world",
-    "title": "Tech stocks lead Wall Street after Nvidia, Salesforce and others say AI is creating big growth",
-    "summary": "AP News • 02:20 am IST",
-    "source": "AP News",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWkZ0a3FCZUo3MUltaTBaYi0wS1E5SWJIX1JjbFNMaDVyM2ZfNm5tTGdaV3Y0YmFhRHh1bl9IUnZhcmRnNUZNX2MzTldjVktxcFFRb0tyMlpUYW1wNEphSUdSbXBqMVl3STFpbXZRTGFnX1htZ2lCQUliNjlubUlDQ25SRFU0dEVKc2lOQXlmamFjYjA?oc=5",
-    "publishedAt": "2026-08-27T20:50:00.000Z",
-    "sentiment": "positive",
+    "title": "Exclusive | Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
+    "summary": "WSJ • 03:16 am IST",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYlMycHNtbklRdFFPaXNoeHlmVzF1dHJYU042Z0xMRFdXdE45V1ZFek1wOGdVUjg2WHVxc3NBdjdXQnJibnlLUTVLb0Zya1A4czhaQkMxNTlFbVBBZ0RtTTduY0VydW51RF94dTRyaXExZ25ReUU0OG9BX3lUWUZqVHlLQjNjUm1RdWlKclJScXlHWlUxRlBtNw?oc=5",
+    "publishedAt": "2026-08-27T21:46:00.000Z",
+    "sentiment": "neutral",
     "tags": [
-      "AP News",
+      "WSJ",
       "WORLD"
     ],
     "symbols": []
   },
   {
-    "id": "gnews-world-28",
+    "id": "gnews-world-27",
     "category": "world",
     "title": "DEA bans sale and possession of 7-OH, scheduling kratom compound as Schedule I for 2 years",
     "summary": "KATU • 01:54 am IST",
@@ -540,7 +525,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-24",
+    "id": "gnews-world-23",
     "category": "world",
     "title": "UAE ‘spy sheikh’ backs 49% stake in Trump family’s crypto bank venture, WSJ reports",
     "summary": "CNBC • 01:46 am IST",
@@ -585,7 +570,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-15",
+    "id": "gnews-world-14",
     "category": "world",
     "title": "Fed-Treasury ‘Regime Change’ May Fuel Bonds, Citrini Says",
     "summary": "Bloomberg.com • 12:43 am IST",
@@ -600,7 +585,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-28",
+    "id": "gnews-india-29",
     "category": "india",
     "title": "Elon Musk's xAI Sued For Using Child Survivor Photos To Generate Abusive Content",
     "summary": "NDTV • 12:31 am IST",
@@ -660,7 +645,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-21",
+    "id": "gnews-world-20",
     "category": "world",
     "title": "Bessent’s Moves Test Boundaries Between Treasury and Fed",
     "summary": "WSJ • 10:15 pm IST",
@@ -675,7 +660,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-20",
+    "id": "gnews-world-19",
     "category": "world",
     "title": "Mortgage rates rise, bringing the average rate on a 30-year home loan to where it was 4 weeks ago",
     "summary": "AP News • 09:45 pm IST",
@@ -690,7 +675,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-26",
+    "id": "gnews-india-27",
     "category": "india",
     "title": "India's Hero MotoCorp to increase stake in Ather with $184 million share purchase",
     "summary": "Reuters • 09:33 pm IST",
@@ -705,7 +690,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-29",
+    "id": "gnews-world-26",
     "category": "world",
     "title": "American Airlines announces new one-stop options from Nashville to Europe, Asia in 2027. Here’s the list of locations",
     "summary": "WSMV • 09:22 pm IST",
@@ -720,7 +705,22 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-26",
+    "id": "gnews-world-29",
+    "category": "world",
+    "title": "Video: Cargo Plane Bursts Into Flames While Landing At LAX",
+    "summary": "Patch • 09:12 pm IST",
+    "source": "Patch",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTnh5ZzhNeW96OS1ZZUoxbWR3cnl6UTB1X2p1YWpHYkxXdUpCTUZTLUVEZ1lIbnhiLUJ4S2pnWG9jNTBuRmhPcjg0WWNnakpRbnhLUzBzZUlWRHNsNmp3ZHFiZkVtdm9RdUlmT1dBMkU2UWNJUnFwUm9GX29VMU9NMU9kLURuOXhiNlY4NkszWGZuVmZB0gGwAUFVX3lxTE9XUHduZ1ltMDg3c1hsZHlSYnpmcUd4UXU2cDhyanFXYlhobzJ1eEIyakNIR0ZJbEltd1REWmlpQXRJYnJYQnpBRVlNdkgzTktsTHZ0S3lpMWI2TjhsZnBkdlZqUC1MOWo1OUFUazVvNTg1bEZHT2QtMGc1Z1hyWXNiQ2ZKVnBxV1phRkplVmpseWJwaFl2MUlCRjhtTHI3R3pZeTJVbW1LLWp6YkdLWmxu?oc=5",
+    "publishedAt": "2026-08-27T15:42:47.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Patch",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-25",
     "category": "world",
     "title": "Fed's Lisa Cook pushes back on Trump firing threat, says she \"never committed mortgage fraud\"",
     "summary": "CBS News • 09:10 pm IST",
@@ -735,7 +735,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-18",
+    "id": "gnews-world-17",
     "category": "world",
     "title": "As RevMed preps for ‘historic’ pancreatic cancer launch, questions linger on the ground",
     "summary": "Fierce Pharma • 08:57 pm IST",
@@ -765,7 +765,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-17",
+    "id": "gnews-world-16",
     "category": "world",
     "title": "Swarm of 700 AI bots went rogue in hacking attack",
     "summary": "Yahoo Tech • 04:24 pm IST",
@@ -780,7 +780,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-20",
+    "id": "gnews-india-21",
     "category": "india",
     "title": "Nvidia Says AI Boom Has Years to Run. Can It Keep Delivering?",
     "summary": "TradingView • 02:51 pm IST",
@@ -825,7 +825,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-21",
+    "id": "gnews-india-22",
     "category": "india",
     "title": "Why are HDFC Bank shares falling? US class-action lawsuit explained, bank responds",
     "summary": "BusinessLine • 10:25 am IST",
@@ -855,7 +855,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-22",
+    "id": "gnews-india-20",
     "category": "india",
     "title": "IPO GMP Today: Hy-Tech Engineers vs Symbiotec vs Skyways—Which Signals Better Listing Gains?",
     "summary": "NDTV Profit • 09:17 am IST",
@@ -870,7 +870,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-india-14",
+    "id": "gnews-india-10",
     "category": "india",
     "title": "Rupee dips, reversing intraday gains, as importer dollar demand dominates",
     "summary": "Reuters • 08:28 am IST",
@@ -885,7 +885,7 @@
     "symbols": []
   },
   {
-    "id": "gnews-world-19",
+    "id": "gnews-world-18",
     "category": "world",
     "title": "Trump team wants billion-dollar companies to be small businesses",
     "summary": "The Independent • 01:49 am IST",

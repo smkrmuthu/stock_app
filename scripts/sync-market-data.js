@@ -115,17 +115,19 @@ async function fetchQuote(item) {
 }
 
 async function fetchIndexQuote(item) {
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(item.yahooTicker)}?range=1d&interval=5m&includePrePost=false`;
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(item.yahooTicker)}?range=5d&interval=1d&includePrePost=false`;
 
   try {
     const res = await fetch(url, { headers: YAHOO_HEADERS });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
-    const meta = json?.chart?.result?.[0]?.meta;
-    if (!meta) throw new Error('No meta');
+    const result = json?.chart?.result?.[0];
+    const meta = result?.meta;
+    const closes = (result?.indicators?.quote?.[0]?.close || []).filter((c) => c != null);
+    if (!meta || closes.length < 1) throw new Error('No meta or closes');
 
-    const price = meta.regularMarketPrice ?? meta.previousClose ?? 0;
-    const prevClose = meta.chartPreviousClose ?? meta.previousClose ?? price;
+    const price = closes[closes.length - 1];
+    const prevClose = closes.length >= 2 ? closes[closes.length - 2] : (meta.previousClose || price);
     const change = +(price - prevClose).toFixed(2);
     const pct = prevClose ? +((change / prevClose) * 100).toFixed(2) : 0;
 

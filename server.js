@@ -153,14 +153,13 @@ app.get('/api/stock/ticker/:symbol', async (req, res) => {
   }
 
   try {
-    const data = await fetchChartData(rawSymbol, '1d', '1d');
-    if (!data) {
-      return res.status(404).json({ error: `Ticker ${rawSymbol} not found` });
-    }
+    const data = await fetchChartData(rawSymbol, '5d', '1d');
+    if (!data) return res.status(404).json({ error: `Index not found: ${rawSymbol}` });
 
     const meta = data.meta;
-    const price = meta.regularMarketPrice ?? meta.previousClose ?? 0;
-    const prevClose = meta.chartPreviousClose ?? meta.previousClose ?? price;
+    const closes = (data.indicators?.quote?.[0]?.close || []).filter(c => c != null);
+    const price = closes.length > 0 ? closes[closes.length - 1] : (meta.regularMarketPrice ?? meta.previousClose ?? 0);
+    const prevClose = closes.length >= 2 ? closes[closes.length - 2] : (meta.chartPreviousClose ?? meta.previousClose ?? price);
     const change = price - prevClose;
     const pct = prevClose ? (change / prevClose) * 100 : 0;
 
@@ -195,11 +194,12 @@ app.get('/api/stock/ticker-batch/:symbols', async (req, res) => {
     }
 
     try {
-      const data = await fetchChartData(sym, '1d', '1d');
+      const data = await fetchChartData(sym, '5d', '1d');
       if (data) {
         const meta = data.meta;
-        const price = meta.regularMarketPrice ?? meta.previousClose ?? 0;
-        const prevClose = meta.chartPreviousClose ?? meta.previousClose ?? price;
+        const closes = (data.indicators?.quote?.[0]?.close || []).filter(c => c != null);
+        const price = closes.length > 0 ? closes[closes.length - 1] : (meta.regularMarketPrice ?? meta.previousClose ?? 0);
+        const prevClose = closes.length >= 2 ? closes[closes.length - 2] : (meta.chartPreviousClose ?? meta.previousClose ?? price);
         const change = price - prevClose;
         const pct = prevClose ? (change / prevClose) * 100 : 0;
 
