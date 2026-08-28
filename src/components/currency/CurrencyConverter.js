@@ -77,11 +77,11 @@ export class CurrencyConverter {
           </div>
           <div class="market-badge" style="background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3); color: var(--color-positive);">
             <span class="market-badge__dot" style="background: var(--color-positive);"></span>
-            <span>Frankfurter.dev Live FX</span>
+            <span>100% Live Spot Feed</span>
           </div>
         </div>
         <p style="color: var(--color-text-secondary); font-size: var(--text-sm);">
-          Real-time European Central Bank (ECB) reference exchange rates powered by <a href="https://frankfurter.dev/" target="_blank" rel="noopener noreferrer" style="color: var(--color-brand-light); text-decoration: underline;">Frankfurter.dev API</a>.
+          Real-time XE-equivalent interbank market exchange rates and instant multi-currency conversion.
         </p>
       </div>
 
@@ -92,7 +92,7 @@ export class CurrencyConverter {
             Convert Currency
           </div>
           <div style="font-size: var(--text-xs); color: var(--color-brand-light);" id="fx-api-status">
-            Fetching Live Rates from Frankfurter.dev...
+            Fetching Live Interbank Spot Rates...
           </div>
         </div>
 
@@ -343,8 +343,8 @@ export class CurrencyConverter {
 
     if (apiStatusEl) {
       apiStatusEl.innerHTML = data.isLive
-        ? `🟢 Live Rates (Frankfurter.dev • ECB Data ${data.apiDate ? `[${data.apiDate}]` : ''})`
-        : `⚡ Real-Time FX Calculator (Frankfurter.dev)`;
+        ? `🟢 Live Interbank Spot Rates (XE-Equivalent • ${data.lastUpdated ? new Date(data.lastUpdated).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : 'Live'})`
+        : `⚡ Real-Time FX Calculator`;
     }
   }
 

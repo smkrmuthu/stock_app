@@ -1,301 +1,901 @@
 [
   {
-    "id": "1d18ac37-7b30-3169-9fc2-ef22015079be",
-    "category": "india",
-    "title": "Jung Saem Mool Beauty Marks Sephora Launch with Times Square Takeover and Nationwide Consumer Activations",
-    "summary": "PR Newswire • 28/8/2026, 6:04:00 pm",
-    "source": "PR Newswire",
-    "url": "https://finance.yahoo.com/media-advertising/articles/jung-saem-mool-beauty-marks-123400238.html",
-    "publishedAt": "2026-08-28T12:34:00.000Z",
+    "id": "gnews-world-3",
+    "category": "world",
+    "title": "Cyclospora lettuce outbreak now tied to 20 states",
+    "summary": "The Washington Post • 06:24 pm IST",
+    "source": "The Washington Post",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM3Qxel9WZk5oU1Q1QWxYbTJsZENYY2E3bjZVbDRpNG80aXZFWDJIQWVYeGF1bEtrSVpFdHBDT2cybVFRS3p2ZGdvMmtxMy1DUkhmdmJvZ0t0NXBXOE1XVUNhSzhPYmFSZUxXTDFOSnphNklKUTlwdFZvb0lQVXZIVFF4WXVpTkNuX2l0dnM5VTRvRmtqYU51SnpmOEY?oc=5",
+    "publishedAt": "2026-08-28T12:54:33.000Z",
     "sentiment": "neutral",
     "tags": [
-      "NIFTY 50 Sensex",
+      "The Washington Post",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-0",
+    "category": "world",
+    "title": "Stock Market Today: Fed Chair Warsh to Speak at Jackson Hole; Dow Futures Steady — Live Updates",
+    "summary": "WSJ • 06:09 pm IST",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcy1EbHZIa2FzZjNOekZJaDBkdWplblJYUXNsekdjcjU4NUhFNzdFbDhfQ2l5THZrbTdtV2JGUUlvNUJhNTdfenFEWlRCRkxHSnRab1VvdVFDNTRkWGdaNVc2TWJDM28tMTZRd0hjNjRtMmMwaGdRa21CSzZFWTJpeg?oc=5",
+    "publishedAt": "2026-08-28T12:39:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "WSJ",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-13",
+    "category": "india",
+    "title": "PayPal Dives As Advent-Stripe Group Said To Drop Pursuit Of Payments Giant",
+    "summary": "Investor's Business Daily • 05:42 pm IST",
+    "source": "Investor's Business Daily",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOGlHN1ZwaS1XTWRtVFNTNllUSkNIRGdzYkd0WkVJekRrcmFkTkhIZ2oxRTgxOVZzVlpWc3l6d0JyYWFnd0MzbTcwRzNqS3Z5VHZRZ0pUdHdIZkpyV2RHWndVdDFaQ191NE5USUpZaVpqRHRBNVpHbUhiczh6VmhZU2NPak1Jci1TQWxRZzZ5bDF1OGpBU3NCUFdWblF2Vmk1Nno4UWRTMFhZRzVmcHFyc1h3?oc=5",
+    "publishedAt": "2026-08-28T12:12:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "Investor's Business Daily",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "ee11b28b-810c-3331-b4d9-815119dc9a86",
+    "id": "gnews-india-1",
     "category": "india",
-    "title": "Market Chatter: Meta, Other Companies Brace for Democratic Scrutiny Over Trump Ties",
-    "summary": "MT Newswires • 28/8/2026, 6:03:57 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-meta-other-companies-123357078.html",
-    "publishedAt": "2026-08-28T12:33:57.000Z",
+    "title": "Jio Platforms gets Sebi nod for $3.8 billion IPO, potentially India’s biggest listing",
+    "summary": "The Times of India • 05:25 pm IST",
+    "source": "The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRWNZOFlnaHV4Z0liNHRnU3NOV1YyTUJXV2xodnRsaGpSTGQtV2YzZnFaajhKLUM3T1RHdDlreEt3QklEQmdSWVpCWi1YaXhsdTl2Q1Y3T01YNEpERl9lM1d1alQzSUZOY282OExrZlJDd2l2WXowZXdYOUw3T1Q1cUN4WF9IekVOWE9Hc3hXMEZxY2J1alEyT3JOTkU2ZHVTSmZ5Qnk2b2hNVnNSQ0NUUDFiSDBlOTBLU01zZ2NlTGpNUUhoRVFWNzhoSDVfQlFjS3pzdERhRXZ5Y1Myd2lrWUxaeTdxYnJkdEM0eVpjcjA3WEZRb2tpWGZsWTM?oc=5",
+    "publishedAt": "2026-08-28T11:55:00.000Z",
     "sentiment": "neutral",
     "tags": [
-      "NIFTY 50 Sensex",
+      "The Times of India",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "fd11123f-1cae-3a7f-8a90-d1271b58e418",
-    "category": "india",
-    "title": "1 Mid-Cap Stock with Impressive Fundamentals and 2 Facing Challenges",
-    "summary": "StockStory • 28/8/2026, 6:02:52 pm",
-    "source": "StockStory",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/1-mid-cap-stock-impressive-123252360.html",
-    "publishedAt": "2026-08-28T12:32:52.000Z",
+    "id": "gnews-world-16",
+    "category": "world",
+    "title": "Japan Spent Record $98.7 Billion to Prop Up Yen in Past Month",
+    "summary": "WSJ • 04:56 pm IST",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa3BHNXFXOXJlY0FoN2x0cU4zMWdyX2VsZ0RDTUpyUzFBOUJRR3RDMnNjVHI4aDIzRmxWVVJHWndjLUhZX1JIcFBkWTlnSDR6OURRNkM2aWRYZV9qWkwtZzgtZ0duazU1WDI5d1B6eGZUMEJ2ckt1V2Vld1ppVHZBRzEzNWNJNjJ6aFJCaTQ4ZkJuM0xkWURPZmFIS0czSjNtV0lLQ3JsU0QyQVRv?oc=5",
+    "publishedAt": "2026-08-28T11:26:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "WSJ",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-27",
+    "category": "world",
+    "title": "Here are the top-growing jobs in the country",
+    "summary": "Axios • 04:30 pm IST",
+    "source": "Axios",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuQWtoOU1KbGhySERxSUZXTThQZjJZbmk4RTlkeFhicXhHaW1PdXVsQ0NjUUVmTTNja0R4OEhZVUlwWXJWelRxOVRFZG8yTDFrTWhYdEE4dFBWbG9YUXE0QzZBeFhmekppUEZ0dEd3?oc=5",
+    "publishedAt": "2026-08-28T11:00:18.000Z",
     "sentiment": "neutral",
     "tags": [
-      "NIFTY 50 Sensex",
+      "Axios",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-23",
+    "category": "india",
+    "title": "Nvidia CEO Jensen Huang to everyone blaming him for AI bubble: You are missing the point",
+    "summary": "The Times of India • 04:20 pm IST",
+    "source": "The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNT2VhNGMzM00tNlM1cFhlZVBXaWNSNndtVC1nbGRuNXVuYXh3S0lCdE9LaUk5elVreWtJZ2U4UEdrZldadEE5ZUJyLUJqTE0yZWE0bE9BZTE5M291cEdPOHA4ZWVIUEdmdFljdlBwVE40bmQ1Um40UHhVcWRGNkt3Y2R1OUR2aTFPTE9RSG02YjJTM0c2bmtXZUlEXzJnM0NKSGNtZk12U2dhSGZiM3RGOHd4N1BYa3BrdnJnZTZzSWM5TlY0MHZySXlhQU5heTVGVVdMLUstRTZMX1U0NXdsTmxERHppQkpVQWVTcjJIaS1pWm1BVXBFSVkxanZMdmpfbFpMcNIBigJBVV95cUxQYm5VR1dSSzhBUHhES3dmTEFET1J4am9ueTFzN0ZvaWZGZzdXT0s5WWhXQTFNcEp6NDBFamwxRzdJd0FfRlltOWRaZVQ3UncwV0NlUVBzS2VHWWJUQlBNano5YS1kN2huaGEzcjAwSG04cEZRRGZ3N3lhMGpXR0o1eUl4YWl3djk3R0g1aTdIM2J6MDR1ekItMFRncy1DdWtva3h6MmUzUGhLYjJBMUdGWlF0ZHREdnZlMnpuN0MtejdKNFFyOEo5RzVlZnEwVmdKVTBWVnFPUDFNbjQ5eTZSckFqREFkanhjeDRwdmNkWFRyMU9hSHJkTFN6Z0dqWUNUUDdrRC1Makxjdw?oc=5",
+    "publishedAt": "2026-08-28T10:50:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "The Times of India",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "fb950e97-d686-3fce-b7ae-452e0467ab08",
+    "id": "gnews-india-0",
     "category": "india",
-    "title": "PharmaCielo Q1 Net Loss Widens",
-    "summary": "MT Newswires • 28/8/2026, 6:02:51 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/healthcare/articles/pharmacielo-q1-net-loss-widens-123251600.html",
-    "publishedAt": "2026-08-28T12:32:51.000Z",
+    "title": "Stock Market Close: Sensex snaps 2-day losing streak, gains 331 pts; Nifty at 24,176; IT shines",
+    "summary": "Business Standard • 03:58 pm IST",
+    "source": "Business Standard",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOanNrZHgxX0tyaVpDT1BCZnM5R2ZhT2dEVWtVNl9mdVJzZVRSM0xCaWx5ZEY3b3ljRjQ5UV9IT3hnWGJTMm9jRUJhUVJEb19BY2pBLWN6eDlvZ2t0R3g2dm9UcHN4QzI1ZnJ1cnVIVEFGNEVNOGZybGVFeTZ0aVhpdjdLSVduSUUtNU5ZaWRtek1oY3BlY3ltRVpLRTRIX29lbHJINDZCMWhYd3RTVkZ1dF93ZnJKbmtRclVlMlRndlplbjFza2Ewa1VlcmdrVUxQaHM0SmxzZ194LUZ1MThEUWtCYlJrMnl0aEk3d2NEbDBid2FkNjNtT3BLa9IBgAJBVV95cUxNNXNqQ2NFZUkzZVRoQlhITGdNbnZ6OVRCQXNZR05uSm1kT0FCWFVaUmx3SUxYTnVNZTVsNEtRRXY5VFRrbklIbHN5aWFDblNDRzE0VzIwZWlJZmJsRnFvTlRzSHZ2V3pCNEEyeTRqS3JBa1RCbE9fQ292MkczWXROZkVRanRFOUh0eU1JY2VuU0swbkFEaEpVTEs2eXBuOEY4SzVjcGpUQlY2MEJVS2xMUzlPUVRTN1NXa3lZTFNOQXJwQ2x3VzBaYjBEUG1sejdCdHloVnJKdkJVT24yd21odUozU2k3cFVMRXBJUjNNSFdzMUVNVzdYbkl0Smt4UVlj?oc=5",
+    "publishedAt": "2026-08-28T10:28:15.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "Business Standard",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-9",
+    "category": "world",
+    "title": "'I'm in favor of taxes,' says Nvidia's Jensen Huang—but he doesn't agree with Bill Gates on his plan to slow an AI fallout",
+    "summary": "Fortune • 03:53 pm IST",
+    "source": "Fortune",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY3VaS3JQZTI0RG90b2FVeWdOaEk1ZzN2d19QOURzUHcwRXFvMUFjRnE3cFhQSTg3OHRUenQzT0pZSXg5Q1RXWGFobWtxZmRoSk5teGdCTnB4Sm9XN0JMLVQ2dWpwYlc5ZDBnVFlLOTZQUDFGRXBNR3lNNEdReVA2U09QS3JTTGxnY2c?oc=5",
+    "publishedAt": "2026-08-28T10:23:00.000Z",
     "sentiment": "negative",
     "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
+      "Fortune",
+      "WORLD"
     ],
     "symbols": []
   },
   {
-    "id": "d068eb55-54cd-3f27-a5c7-64c7b363cccd",
+    "id": "gnews-world-2",
+    "category": "world",
+    "title": "Marvell shares tumble 8% as outlook underwhelms despite 37% revenue growth",
+    "summary": "CNBC • 03:49 pm IST",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYl9tcXFQeFdWemVHTXBxVXNiaFFPLVJUU3R5V05Vd0xBdFU1NGd4VnJBZUZpNHREZlJSX2pYcXhCX0VibHMxS0kxNkZnLXdtaWhCNmw1Y3Fla2tSQ3YwRjNoRzNrVlExZjEtaHN2dlA5UGVJaUY3b9IBfkFVX3lxTE1Pdk0zWE1wQl80T2FEaWFlU05kMUYtSEY4SEtXVkVOWU9CVWJZM2p1NWk0dXNQenVzWWhsc2U3THJnQ290d3J3Y1hremFfcVJUZ3YwQ2pNbG9ETzNfUlNhMkdyQ2NZRUw4dzJYbEpXS2pEU2pPSkZJV25SMTRCdw?oc=5",
+    "publishedAt": "2026-08-28T10:19:13.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "CNBC",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-22",
+    "category": "world",
+    "title": "China is a Threat to Biotech’s Massive Bull Run",
+    "summary": "WSJ • 03:41 pm IST",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ3dHb0pJVkxRR01BUHlFb2VYdHRwS0FVZ3BvUjhjZjR5enFoeDkwRVp5bkVqS05tb21JdmZnU2pDeE9vbklJa2pCMDZ1OWFZVUIwaUN6MGt3Zk5fbHo3X0dqSDUxMGxWX3hKM1drMjUyZFlCeWxKUG43aDRSM1pLMzE1eXBKYmdHTkhVQm80NEszLTJv?oc=5",
+    "publishedAt": "2026-08-28T10:11:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "WSJ",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-6",
+    "category": "world",
+    "title": "4 Beaten-Down Stocks With Average 134% EPS Growth Ready To Rally",
+    "summary": "Seeking Alpha • 03:30 pm IST",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd19obmFKZS01N1RYUktuWkEtQWsyRENHSk9TVTdKSmRqclUzdHNLUHNBQWZiRy1OVjFTamdldDFjb1RXWEdkRVFRbEVLQ3E5TEljUlV1NmlOOWJrSjhrbV93dFdxNDc5YXhSNjlHSFNTMnR3bmhXT2FaaER4Zy0waXkxX2NsdEhTN3JqWVVKMnF1YkN5SXZkaXg1RFZVR054bkNDZGE1UWtrbmhmeFRJejZR?oc=5",
+    "publishedAt": "2026-08-28T10:00:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "Seeking Alpha",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-10",
     "category": "india",
-    "title": "Stocks Mostly Down Pre-Bell Ahead of Warsh's Jackson Hole Speech",
-    "summary": "MT Newswires • 28/8/2026, 6:01:01 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-down-pre-bell-123101413.html",
-    "publishedAt": "2026-08-28T12:31:01.000Z",
+    "title": "Hundreds of AI agents coordinated to hack Hugging Face; researchers discover they can act like ‘digital s",
+    "summary": "The Times of India • 03:05 pm IST",
+    "source": "The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQMmcwMjYtNVdXQ2RiNF9WbmRxNXJJZ3NzaWltZHVaV3QwX2YtUzVVbDVuYUJBVGVHaG1TNl9BUVRmeDMzWGFZckE1SmRhdTBtaFhHN0FHOXM2bTQ2MzNiNFowZDBfSmU4Q1dwTmNDX3dyVDExZ0ZZY2otbXcyQzRHdTVQWGFBX0RSM0wzLVRpZ0lxaTVuUnlBOE9Yc1Rxbzh4bWFDZFF6T2VmWU0zYkM4TVRtZEpZSmJUbjVvMkR1bXVScGVyazhja3BaeFNTRWhvUFRaR1lKLUUzcnY0UUE4SFU5Q0pMVEdrdHQzbVJjQV9hWElDcW4tbzdNejNiREwyOXRfZVhabThuNENvcGl3Z09ESnhnZURwdWfSAZ8CQVVfeXFMT3ZUcFZqMWJjTC1iZmNSWFB2bHQ5ZXNJRHlZMEJHOUZGOVFramE4Y3lNVHdOeVZXZXB5VXlGbXdWdWdHa0QyUng1d21rZ0dNX3RqUy1XTkozcUxsZmpiaGNFRkFXS0VnbVB5eDJFVXNBaHk2R1ZXUnpBVjB0WkFoMzFnV1J4bEwtMl9FMDZ3VE0zWVZua3FYMFVRb2hmTk1Sam11aFptU0xtdUZRVDBHWlpLLWpiTVZqZUtfc3JmZlJGcXdUcE1iMVo5OVZkT0Z0cktfd1pJMFBZVGZjb1pTNzZJVlNKaDZzaXJ0aGd5MmUxNVFJTXRKQ1owamREcG1vbGEyX19vRENpSUxIdFI5YURkS3BLYmRNdGU4cXlJTjQ?oc=5",
+    "publishedAt": "2026-08-28T09:35:00.000Z",
     "sentiment": "neutral",
     "tags": [
-      "NIFTY 50 Sensex",
+      "The Times of India",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "3f711d61-aaf1-33ef-b839-c9e6335e4a9c",
-    "category": "india",
-    "title": "If You Invested $1000 in Kratos a Decade Ago, This is How Much It'd Be Worth Now",
-    "summary": "Zacks • 28/8/2026, 6:00:02 pm",
-    "source": "Zacks",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/invested-1000-kratos-decade-ago-123002020.html",
-    "publishedAt": "2026-08-28T12:30:02.000Z",
+    "id": "gnews-world-4",
+    "category": "world",
+    "title": "Businesses are getting tariff refunds. Why aren't consumers getting their cut?",
+    "summary": "NPR • 02:30 pm IST",
+    "source": "NPR",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT1M2UThDZ0VSdUJZVjFjNzNSUW1EdWVXUE9OWmNrZGRkTjZUMDJwWjZWMnQyeTA1Nm9JcDhSQXJ1bW1BNS1rRnBEQ2VkZENmcDdtYmhQdS1XWFJFSDBUcTh4SHdNTm1nVF9hNWsxMWV4dkV6cWM2ZC1WeXY0cVZqamhvTzV2N3BacUlQb2g1LWFhMHhTTXB0ZmpqS3NIcnozeGNCSzVWeXNka1N4dDdvU2stYkQwOE0?oc=5",
+    "publishedAt": "2026-08-28T09:00:00.000Z",
     "sentiment": "neutral",
     "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
+      "NPR",
+      "WORLD"
     ],
     "symbols": []
   },
   {
-    "id": "7f5eae1d-1f76-3316-8618-88a6f2f0ae16",
-    "category": "india",
-    "title": "Nvidia May Have Just Eliminated Its Biggest Risk",
-    "summary": "Motley Fool • 28/8/2026, 6:00:01 pm",
-    "source": "Motley Fool",
-    "url": "https://finance.yahoo.com/m/7f5eae1d-1f76-3316-8618-88a6f2f0ae16/nvidia-may-have-just.html",
-    "publishedAt": "2026-08-28T12:30:01.000Z",
+    "id": "gnews-world-13",
+    "category": "world",
+    "title": "Musk’s AI company sues its users as victim lawsuits over Grok deepfakes mount",
+    "summary": "Politico • 02:30 pm IST",
+    "source": "Politico",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQlZJbi1FeDJrVHdzOGFoVWNKTG5MNFpVVDFyc0ZDM3RfYmVXZWtDMlZlYzVLelZ6MVliWGlqYlR5U2hPZGhDXzcyMEsxTU5VbF9UeExqLXBaTF9aVnZsNndBNXMtNUpqazNVcjFlQW5aUUJ4TDR1dm5mbnVDMFkxQzFXQUtjZHM5Y01ndTZBb2M?oc=5",
+    "publishedAt": "2026-08-28T09:00:00.000Z",
     "sentiment": "neutral",
     "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
+      "Politico",
+      "WORLD"
     ],
     "symbols": []
   },
   {
-    "id": "e02e7304-c471-34c9-a0fe-add1919ce06c",
+    "id": "gnews-india-27",
     "category": "india",
-    "title": "If You Invested $1000 in Fortinet 10 Years Ago, This Is How Much You'd Have Now",
-    "summary": "Zacks • 28/8/2026, 6:00:01 pm",
-    "source": "Zacks",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/invested-1000-fortinet-10-years-123001380.html",
-    "publishedAt": "2026-08-28T12:30:01.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "0dc38e95-09ab-3206-8ae9-706c36e565b9",
-    "category": "india",
-    "title": "Leifras Celebrates 25th Anniversary, Setting Vision for Becoming Global Infrastructure Through \"Sports and Social\"",
-    "summary": "PR Newswire • 28/8/2026, 6:00:00 pm",
-    "source": "PR Newswire",
-    "url": "https://finance.yahoo.com/media-advertising/articles/leifras-celebrates-25th-anniversary-setting-123000985.html",
-    "publishedAt": "2026-08-28T12:30:00.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "10b8f28a-232c-343a-a0fd-50d6f4b013ba",
-    "category": "india",
-    "title": "Aolani Launches the Aolani Token Factory to bring Pay-Per-Token AI to Asia",
-    "summary": "ACCESS Newswire • 28/8/2026, 6:00:00 pm",
-    "source": "ACCESS Newswire",
-    "url": "https://finance.yahoo.com/technology/ai/articles/aolani-launches-aolani-token-factory-123000986.html",
-    "publishedAt": "2026-08-28T12:30:00.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "241524b6-95e1-3601-80a2-af4628a97496",
-    "category": "india",
-    "title": "Net Asset Value(s)",
-    "summary": "Business Wire • 28/8/2026, 5:55:00 pm",
-    "source": "Business Wire",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/net-asset-value-122500294.html",
-    "publishedAt": "2026-08-28T12:25:00.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "India Stock Market",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "9fd35ca9-c36b-3ae2-b351-8163f829ad52",
-    "category": "india",
-    "title": "Canadian Investment Regulatory Organization Trading Halt - IVS",
-    "summary": "CNW Group • 28/8/2026, 5:55:00 pm",
-    "source": "CNW Group",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/canadian-investment-regulatory-organization-trading-122500434.html",
-    "publishedAt": "2026-08-28T12:25:00.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "India Stock Market",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "50992a6b-84e9-3793-88a2-a589f28751ae",
-    "category": "india",
-    "title": "Marvell CEO Calls Google Deal ‘Game Changing’ – Says Custom AI Chip Revenue Could Be ‘A Lot Larger’ Than Modeled",
-    "summary": "Stocktwits • 28/8/2026, 5:54:59 pm",
-    "source": "Stocktwits",
-    "url": "https://finance.yahoo.com/m/50992a6b-84e9-3793-88a2-a589f28751ae/marvell-ceo-calls-google-deal.html",
-    "publishedAt": "2026-08-28T12:24:59.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "India Stock Market",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "a92aebb0-952a-361c-9fac-1e7356ccf3ba",
-    "category": "india",
-    "title": "Mounjaro Vs Trulicity: Eli Lilly’s New FDA Win Puts Its Blockbuster Weight-Loss Drug In Focus",
-    "summary": "Stocktwits • 28/8/2026, 5:54:59 pm",
-    "source": "Stocktwits",
-    "url": "https://finance.yahoo.com/m/a92aebb0-952a-361c-9fac-1e7356ccf3ba/mounjaro-vs-trulicity%3A-eli.html",
-    "publishedAt": "2026-08-28T12:24:59.000Z",
+    "title": "Meta's India and Southeast Asia VP Sandhya Devanathan to step down",
+    "summary": "Moneycontrol.com • 01:46 pm IST",
+    "source": "Moneycontrol.com",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeWRvemlmZVk4SUNSeVVlLUJWbnJWNC1OcmpSamFHNmlxcDBIVkNTTTBOM3ZndlB2dVlfeWdqRjU5VTFGUGVkdEM3elFzaWZVNGljSjgxNTBEcm9zb09SLXZoRTJWZHdvRUJBS2MwbkdjdENEMmhvaHdDa3RUVlM3U2tSTG94MWtkMHRmOFhYRVo1bHhUdGYzZ2xITm9DS1JJSDVaS2w2SHdhMXA2a0JWalE5OE5TSjdqTUdvdE9YcXlIOWczN0Jn0gHMAUFVX3lxTE8zdUE4NTVYZ0NHS3ByckhBMDRVajFUc0F3cm9hTWJuanFFOGxBc0NnNG5yb1hmMDBJTERBelRWYjA4RlVQaU9JMmljZngtSmpRTk5jMm4tX2lGMmlweldrdmdqazl0d1k4ZFoybURhNVZDankyaF9uVzkwVG42OFNVX21XNWNTejU2MTJ6R0lzamIzeEsxOTF6eUU2c0d0bHNndlZNMktyeEpEMXBSUEVfZGNZTmpXNHdiVGlmVEo1a3hwWWlIYnRDTmpRag?oc=5",
+    "publishedAt": "2026-08-28T08:16:36.000Z",
     "sentiment": "negative",
     "tags": [
-      "India Stock Market",
+      "Moneycontrol.com",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "1477cec4-970b-3673-bdfa-093d0f6a3b26",
-    "category": "india",
-    "title": "3 Value Stocks with Open Questions",
-    "summary": "StockStory • 28/8/2026, 5:54:52 pm",
-    "source": "StockStory",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/3-value-stocks-open-questions-122452054.html",
-    "publishedAt": "2026-08-28T12:24:52.000Z",
+    "id": "gnews-world-11",
+    "category": "world",
+    "title": "Advent and Stripe Abandon $50 Billion Pursuit of PayPal",
+    "summary": "Bloomberg.com • 01:40 pm IST",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSzJVdkJ5T21HYXp0WGkzZzRZdGtGbmYwTDdIS2pSYUVsYTdvenpsejQzUUV6Ym1IV2oyT0g3anMxSXNoWXAzZEZSRUo4WVhZckEyd3ZwaURnNVZXVXQyVTA0dHEtYzZMbm1OdFlqZlRvMmRkcG9kVkQzeTJ1TWN6WTQyNnpnUGFPWG5JcW9OUnJzcGtpQlhwU2JLUy04ZGJqT05fQjdLb0V4bXZ5dEE?oc=5",
+    "publishedAt": "2026-08-28T08:10:26.000Z",
     "sentiment": "neutral",
     "tags": [
-      "India Stock Market",
+      "Bloomberg.com",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-4",
+    "category": "india",
+    "title": "Tata Group, Shapoorji Pallonji explore liquidity options as lenders seek concrete exit plan",
+    "summary": "Moneycontrol.com • 01:34 pm IST",
+    "source": "Moneycontrol.com",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYllhVXo0ZUMxOHRQbUtYMmNJLWVnM2NjWG00UEM3cHQ1dDg2Ykx5Z09RaVVUaVhZUzltQ0dEVXBRVTNtNDhrQnMzcm5PMW1UUGxBRUdtSFVpWlRMTE51MEZoRm5mR3g4WWpjemo1MDlHMzk5UlNDa2hzN0VjaERzb0VEVmN0SHpUdEF6cVhjNFdla0RBRFpJa0pIcG5KVHB5UVUwcFp3bWJKYV8yblZkX2Z2eV8wV2EyR1VTa056X3BvU1ktVHVnX00yUkdtTGJJSHZYWkxNMTljd9IB3wFBVV95cUxQbkxVYXN4S3YzRzFzdTJwcTdqM2ttR1dZODVvR1ltc1ZzVjYySGdycVhPcGtTMF9YS2wwYWQ4ajJ0THlwN0Z5dzdRRkZRem5MN0JWLWxPajQxTU9qYUpYWGlkdEV2ZnJwTF9nTk5kRkVleXhLSHRaeTFSLUpYYTJrVmd0RWk4blg3LXFhUnhEWXFocEw0RHZIaWQ1ZVdzZThLaDRqMEVjUXN6RWctOWlnQ2t1V0YxRlk3bVA1U1VVWmlyUl82cTFXY1pacEVIamg3djZMLUhkU3RNWnFfZ1ow?oc=5",
+    "publishedAt": "2026-08-28T08:04:40.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "Moneycontrol.com",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "225d97ed-58ec-36d5-9f1b-6256ef1e0361",
+    "id": "gnews-india-25",
     "category": "india",
-    "title": "Meta's $18 Billion Settlement Could Reshape Social Media Stocks",
-    "summary": "Zacks • 28/8/2026, 5:51:00 pm",
-    "source": "Zacks",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/metas-18-billion-settlement-could-122100425.html",
-    "publishedAt": "2026-08-28T12:21:00.000Z",
+    "title": "2027 Toyota Innova Hycross Facelift Front Leaks - New Sportier Presence",
+    "summary": "RushLane • 12:50 pm IST",
+    "source": "RushLane",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPblAwMElnZzZFWFFrVWZ1RTc5dEk2bS12aGJtM0xuODZIMmZRMTQxcDR0MHB2N0VsYzRMazc3UVZoQmJIWFRjRERpVHotTE9rc2Z5U2dQNzJWN1NSOC05VEhYZDFlNGVQcXBjN201THRLTThxQXQzVkVZSlRlX1BHY3FuNmlEVmxLNmFnQ1lNS2h0ZFBQS0lQTVdpQnF3M3d0TXJ4WFo3N2VqVUEt0gGsAUFVX3lxTE9uUDAwSWdnNkVYUWtVZnVFNzl0STZtLXZoYm0zTG44NkgyZlExNDFwNHQwcHY3RWxjNExrNzdRVmhCYkhYVGNERGlUei1MT2tzZnlTZ1A3MlY3U1I4LTlUSFhkMWU0ZVBxcGM3bTVMdEtNOHFBdDNWRVlKVGVfUEdjcW42aURWbEs2YWdDWU1LaHRkUFBLSVBNV2lCcXczd3RNcnhYWjc3ZWpVQS0?oc=5",
+    "publishedAt": "2026-08-28T07:20:22.000Z",
     "sentiment": "neutral",
     "tags": [
-      "India Stock Market",
+      "RushLane",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "ac286492-03f2-3dea-8446-ea3396ad73f8",
+    "id": "gnews-india-11",
     "category": "india",
-    "title": "Value Growth Investors Should Do This With Salesforce",
-    "summary": "24/7 Wall St. • 28/8/2026, 5:50:55 pm",
-    "source": "24/7 Wall St.",
-    "url": "https://finance.yahoo.com/m/ac286492-03f2-3dea-8446-ea3396ad73f8/value-growth-investors-should.html",
-    "publishedAt": "2026-08-28T12:20:55.000Z",
+    "title": "Sensex falls 350 pts from day's high, Nifty below 24,100: Key reasons behind market decline",
+    "summary": "Moneycontrol.com • 11:47 am IST",
+    "source": "Moneycontrol.com",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQU2U5eDl2YlJEM0VJYnl3R2N4ZUNoZkstOFQ3NjV1MGRFX0xIZUdzWTNyMF8zTDJPTmh1ckNQdmhmX0pJbDluLUVLTzNTNm5LX1JkcWhmQ1ZVbnRuYXhVNlRxWXd3UElJdGRTdkVpWXV4SHpTU21ZTFUwSnlFbXI3clJld0NjaFR3azlSb3VIOFlYT1NELVZnbFZYOGFNQVdTMnBQdHM1QWtZZF8wNGp6MDJGci03SjhiMHFZZEF2M1R4dU9jMUR1QVJNWEtCMHZPNkxrNEkxUW9jR0NsazdhcmMwLUp0TEV10gHuAUFVX3lxTE1KWGhBRTZpVC1LYjdVVHRYV1dfYXVOTnd3a1ROeTd3VzE3cWJKRDlaVHFYcTljZ0pSdHZrTFU0WjdyQzNkTDYzWER6VW1LVk16azVoOEloQmhEczRjVUVqWG15WXZ6emZJdi1TM2JfTl9Od21NVGMzR21zMERYVVFTckRlZEF1LUVTWjZBa0NyNTFmZTg0d0JweVZQUkkzRlp6ZjJHcHdSMEViYTVhZDlzYlRpOW9wZVBrRGtzS203Y09VcVl4Q2FIcFZzS2Y2Y0x1WlNCQ1BTMDlLXzY1clRzbDNrcUgzZmNNaTV3Wnc?oc=5",
+    "publishedAt": "2026-08-28T06:17:10.000Z",
+    "sentiment": "negative",
+    "tags": [
+      "Moneycontrol.com",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-15",
+    "category": "india",
+    "title": "HCLTech, TCS, Infosys, other IT stocks rally up to 5%. What lies ahead?",
+    "summary": "The Economic Times • 11:19 am IST",
+    "source": "The Economic Times",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV0twR3poNlFGSG1kUjRJTk5EWnV0dDQyTXJfZ0t3dFdBS1JWblRta3I3SkNlaTVjbDNRLThtMkFDSlNxUmtpd0FZQ1dKUXM0Q1lwU0tuUllicUtzWGdQdW9xYWY0Tm12SlJzanlqbWY4VmF1R0hkbVhuaDZXMTJQQUFRYUhmMHFpWnVsdlNUSFZkblRXVlpzVXo3akFDQlJKMVJpcDNyYmhDSk1uanlNRkRXa2Z2SmpOTFF3VzNzYUhwbE9QUXFYbjczZWVmVEJhSjFNTHZ30gHbAUFVX3lxTE1fUE9SZHdGWWU1WDhrZHhGRkZ6YzhkTlZiVVQ2MDdCTmpNcm85Vm50X1pRSUxZMzctNVgwZkI4NkxfVGVoLVlmUElwaGFaT1VhTHVnTmIyb05TaVdFa3RKcV95U2lSYmhBTXBlT2xoRndXazc4a3EtNUl2UkIwOTd3c0pxQUp0bVJjTkZ4TFAzVzI5QmMtZm1EdzNnelQ3WG5qcjZxR1pWNDBBWDFUb1BPQ3BMRmJJeE44Z2NVVzZPMklYc0F3d2FsZXNCUjJ4X05rZjVuT3RsN1lqQQ?oc=5",
+    "publishedAt": "2026-08-28T05:49:33.000Z",
     "sentiment": "positive",
     "tags": [
-      "India Stock Market",
+      "The Economic Times",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "b4449304-034d-321a-bda3-893ed5d274bc",
+    "id": "gnews-india-24",
     "category": "india",
-    "title": "Argus Research Upgrades Moderna to Buy From Hold, $180 Price Target",
-    "summary": "MT Newswires • 28/8/2026, 5:50:32 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/argus-research-upgrades-moderna-buy-122032388.html",
-    "publishedAt": "2026-08-28T12:20:32.000Z",
-    "sentiment": "positive",
-    "tags": [
-      "India Stock Market",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "1d66f975-b209-31ee-9f2f-6bbe4e8a4581",
-    "category": "india",
-    "title": "Argus Lifts Price Target on CrowdStrike to $425 From $230, Keeps Buy Rating",
-    "summary": "MT Newswires • 28/8/2026, 5:50:23 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/argus-lifts-price-target-crowdstrike-122023593.html",
-    "publishedAt": "2026-08-28T12:20:23.000Z",
-    "sentiment": "positive",
-    "tags": [
-      "India Stock Market",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "86931be3-9668-3c0f-9069-b43aab943995",
-    "category": "india",
-    "title": "JPMorgan Adjusts Marvell Technology Price Target to $305 From $240, Maintains Overweight Rating",
-    "summary": "MT Newswires • 28/8/2026, 5:50:09 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-marvell-technology-price-122009221.html",
-    "publishedAt": "2026-08-28T12:20:09.000Z",
+    "title": "TVS Motor Company appoints Peyman Kargar as Director & CEO",
+    "summary": "Exchange4Media • 11:07 am IST",
+    "source": "Exchange4Media",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY1ZOcTFuQ3ZTeXlnX0gtdS1rVmFvRDY3SE1XZXRMZkVuYndURzZ3d1N4T0xSSzlraWxxQ0hoWTlzN29DYVNlbGt5ZGw1TTZDRkhtUWczR0Z3bU04WWs4a1hzLUdvSzJJRExmMk9FVGJfQ0UtX0hzajU1eFhnTktEbzZzeGFIcGNzZ0t0bXJaWnpaNmJiRlpjcXVOdUwtZENYVkdfMUN3cm00eU1xUFl4X2MxeFFNSTFmZktMeA?oc=5",
+    "publishedAt": "2026-08-28T05:37:47.000Z",
     "sentiment": "neutral",
     "tags": [
-      "India Stock Market",
+      "Exchange4Media",
       "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-12",
+    "category": "india",
+    "title": "Gold monetisation: Manappuram, MCX among Jefferies top stock picks",
+    "summary": "Business Standard • 10:04 am IST",
+    "source": "Business Standard",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMVdoTWF4M2VKRm1pV0ZMSFFUR3ZvVzJXQ3ZDQVJDRWg3TFhMVWxBSkpvUGVTRndOUThHQ2p4d1V0ZnB1OUdpcUR3dUpnaW5HcVl4WGdJRUdCVktucGlvekZ4NDhWdm80WkpKYS1xSmh0YVFuTzJMXzdiVmZYR3J2M3RVWnoyNGNhX2xMdU5tMTlpZng0eExDZ3FCNTlfZDFvT012TU5FN2hfN092Ty1kZnIzWDd0U3NGX0xNaGRsZ0YzWFRlc0kzVkJ1ONIB0AFBVV95cUxOR29Yd3k0dEVtbFktWWxTZmNSOHM4Zm1UYmtVQVhsSnF4REdRXzlWbmJFdHRZcjZRU1BNaVVRX2lfMkc4aUMxM01fUVlJN0lFdEg3ajNPV2JRZnhuV3l0TFI2U2tkV0QwaVJIMVRqT1RHNUZfX2lqUXhYeFJJblR0OXZxREhKMDFDZmZvZlNkM2NqbHFFclZZcF8yb3o1c0hLdk0wVkNtY1JmZjh2d1FhbTR6LWhpSVFLZ0VTLU83Y0gwQ2VvSmNnUlcybjg0QmlX?oc=5",
+    "publishedAt": "2026-08-28T04:34:26.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Business Standard",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-6",
+    "category": "india",
+    "title": "Morning Bid: Warsh heads into Jackson Hole hot seat",
+    "summary": "Reuters • 10:01 am IST",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxQm90VXdGYWc0WDM4SndsU0J3UHFIcDllWGxmZlo4VklpYWRxR3NleVdwRjdTMHcwbHE3NE5MZk9KR01FRVl4cU1EdUNHMkxtVTN0QUdwOFE0ZGJsNDJkZnpIT2xHUkkxWE1leEJUQlFqYzRhR2RqdllCYk8zREE?oc=5",
+    "publishedAt": "2026-08-28T04:31:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Reuters",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-29",
+    "category": "india",
+    "title": "Yamaha YZF-R2 vs R15 V4: Is Rs. 2.30 Lakh Worth the Jump?",
+    "summary": "BikeWale • 09:06 am IST",
+    "source": "BikeWale",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdG9HRTlIUVlnOEpLMnlpTFoyRGlGaUg5c3NwYnRoMjR2NlJnZHlLSWtYZFM4N0pnV2x1U0VyWUM1NXR5a2RUSFJVQkZuNFBNaEVGVngzMTFTZWl6Z0hrbHhCeGhFYW9PdHhNd2N4dUpHa1hRVHEwcXRveGlBelhwSFIzWHc5UUZtcjVyNQ?oc=5",
+    "publishedAt": "2026-08-28T03:36:29.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "BikeWale",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-5",
+    "category": "india",
+    "title": "Tempsens Instruments shares make blockbuster debut, list at 111% premium",
+    "summary": "The Economic Times • 07:53 am IST",
+    "source": "The Economic Times",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOemZRSDFPckpNLV9uRjd4REJCT0ozRXRQWDNMYWJRbjI0cEdZLXN3LTdyVVg1QkNaQ0t3TTM0ZTVEVnJwM3Y5X3RyWU5NTDR4M3BUMUxZdkRxY1lEek4wRXVZeTdZUVFuTnJnQmJOTmhIOXNnVUJ4ZHI1NGo0VmxYdGk4bl9DQ1JURVhEUGZMZWZBQjRZbHVrSUdwaXBfX3J1ZTZ6NnNieHNpT2lsODhfQnBpQktBeURIR0N0SDR2ZkFMNmdkYkNiQnVTdkVhRVdrdlFRMmZPdFVOLTF00gHiAUFVX3lxTE9tbGZaZ1NfY1hnYlplRDRKaFd2Y0VwaHlSSWJ6UG9KSEItZW1TWk56cGcydE1jZURBRklIMUJSV3VNOGpqcFZfNUJ5T3FJc2tLNXJtYXJTSmZTV1drWHh5cFlJdUVwRExGQ2liai1fbE9PbUlrc0VDMWVQb3lrYVd0X2tsNm4yUGFzdWJWZ1VHSE5tdnhMSno0dXd3SjQ2Zy0tSjJlTEVhdm5JQ2lWWS1wYlZ0eVplMUkwVV9JUjBKXzRHZkZ0bEdmOGJBTlpyOFZXZTc3ZGl1MmhscWpIMFJkSUE?oc=5",
+    "publishedAt": "2026-08-28T02:23:37.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "The Economic Times",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-10",
+    "category": "world",
+    "title": "Gold inches lower ahead of Fed Chair Warsh's Jackson Hole remarks",
+    "summary": "Reuters • 07:50 am IST",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWlR0QXlieWo3eENkM0t6U1djSVl3MzVYWXhqNm0zZzQwdlM3YWo1UW5lNk12RGFfYmVxY2xIVzRsa2NGRnJTVVZ5bGNGSFdoYjl1clctVDQ2Sy1mbUIydVFudDl3VjRGbE1ST3d3VlpFUm9oZkk2X3dYTkV0NVRvNEZOWWtQOGhRUEJsWVc5dFRtalZDRW05Sk9NbHIyTGttOTIw?oc=5",
+    "publishedAt": "2026-08-28T02:20:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Reuters",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-16",
+    "category": "india",
+    "title": "World’s largest financial inclusion initiative – Pradhan Mantri Jan Dhan Yojana completes 12 years today",
+    "summary": "News On AIR • 07:37 am IST",
+    "source": "News On AIR",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTUFac3hZTFFoTDFycHJ2UktITzNET0FpSUZaT21ieWZOMjFvM1NlaURsZGlXc3RpR1JrbGVvX2FFRDNQTGxuNDhrUm4xM01EeXVibzQyMDFrV3ZNZ1FELTg3V3BSNHhDMXAzUUQzSXFzZC1vamFDanZuczZOUi10VQ?oc=5",
+    "publishedAt": "2026-08-28T02:07:24.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "News On AIR",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-2",
+    "category": "india",
+    "title": "‘Flash Crash’ Hits Sensex Index During Unpopular Closing Auction",
+    "summary": "Bloomberg.com • 06:52 am IST",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObmhEWEl0NkNSamxDeEdyREVGNWJxV0RYbVhqR1pKbE5IYld1UWd5c3lWREdBb1lfYW5JWUlocGh6S25xS3VFQlRQU21DYVAzRXBheHh0Rmd6X1Z2dnFuT2xlRjY3Qk1BaVh2Q2FoUGYyMW9NZDRaLVYxM3J1THJHWFM5WU5RMmZqaHRNZVNIRGdMOUJqTExkUjh5Q1o5VUs5dU03UGJNZHotdFpBRkNkQ1Y3a0FRQWMw?oc=5",
+    "publishedAt": "2026-08-28T01:22:00.000Z",
+    "sentiment": "negative",
+    "tags": [
+      "Bloomberg.com",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-7",
+    "category": "world",
+    "title": "FDA approves updated Covid-19 vaccines for dominant XFG variant",
+    "summary": "The Guardian • 06:49 am IST",
+    "source": "The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRG5oN05kRVZzeF91Y29qWkNiVjM1ei1wRndRZkJlQm5pU25QZTVrTThkYXRyUFNhR0tVdlpxRldJSzFUMUVJanlldnl0VmdxMlE0UlktZnRxVkJZbkNjaGctcmlTMzlIRmVkZUhSUGtDTHBVNEtMd29XNGhPVjYyazJhNy15bnNieWxDRF81Yw?oc=5",
+    "publishedAt": "2026-08-28T01:19:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "The Guardian",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-25",
+    "category": "world",
+    "title": "Mamdani Turns to Team of CEO Advisers After Clashes With New York Business Elite",
+    "summary": "WSJ • 05:27 am IST",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHRTYUhmeEJiU2V1NGZ3dWczclVaR1dhYmQtQWlUTm1XWEtTYjExMmpVTTJJQ19PX2FSclEwNUdENUdjVkpfSktBckVIYlNoYTh0OUc5cURIeUd4REFrdl9uS2JUU0RINmxhYnY5azlDSEJJTDRkcUd5RGhOYjZGeHFrQVlxTlJoNVZMaGVRUlFSN2ZFMEJoSl9LcEtUZ1lpZXV0U0xENjBoUXlzNnRfbDBQTEREdjBh?oc=5",
+    "publishedAt": "2026-08-27T23:57:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "WSJ",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-23",
+    "category": "world",
+    "title": "US officials weigh plan to shield farmers from expansion of refinery biofuel waivers, sources say",
+    "summary": "Reuters • 05:15 am IST",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTk9aaDNITHZ1ajlMOHZmVUdIcFYtMHZoN3gzY05oenBQSlIxOEFYdmNpT0RSSTlEMjREQmxyWnptU2wwTWV6ZWNzSnR2UlFEVjZpRG9kNDlMUHp4V2lTakRYcU5IbXhnM1NrWkZoZXNFeGN5NkhVbWJZbkZRbFQzSERSVU9MNjJydENueldxaVJodksxWWdZeDY1VjdOS1JFRkJXN0NfYmEzbUZYYUd2eWlnZ3VDZXc?oc=5",
+    "publishedAt": "2026-08-27T23:45:43.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Reuters",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-8",
+    "category": "world",
+    "title": "Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports",
+    "summary": "Reuters • 04:52 am IST",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYkFHVHZ6Sk1JRExqTlk1Zl9VSGFEN0FHSXIxbXdhNllud1dSMWFoWWNiTUJ6V1Fqb3M2U2JvdWFNS3VMMS1rOGFhaU51RGFXR0EyQkpHWFBnaVB5d3pWdktTM1Q1SlhkblB6RTJHdUx1WVJJQ19xVzlaVldXOVVXbjRFemN2X0hmb25UNXNvb0dmUjUxZktXcTdTeGhMNmVsTnEyODFYYk1KQ2ZFOWlHYVozTl8yU0E?oc=5",
+    "publishedAt": "2026-08-27T23:22:11.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Reuters",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-14",
+    "category": "world",
+    "title": "Frozen Buffalo Chicken Recall: Highest Risk Warning Over Food Safety",
+    "summary": "Newsweek • 04:29 am IST",
+    "source": "Newsweek",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOFdzS3NIa0FGV0dqMUdGdFBHb1ZOUGM2MEN3eEhoX05WV0xGU2ZBaFdENGl0ZDc2YUZoTFFrWjRsc1dDXzdWTnBLWERTdExKcGlIN1lVR1B0T1N2akVmaTl0c0hWMWdfYkhuMnRlaDdVRXY3cy11bDN6eUx1RWRmaF9iRzBUYkJiUEJvVlo5enAzdExab1hMNlQ3OGVBYU9ybmRB?oc=5",
+    "publishedAt": "2026-08-27T22:59:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Newsweek",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-12",
+    "category": "world",
+    "title": "Tech stocks lead Wall Street after Nvidia, Salesforce and others say AI is creating big growth",
+    "summary": "AP News • 02:20 am IST",
+    "source": "AP News",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWkZ0a3FCZUo3MUltaTBaYi0wS1E5SWJIX1JjbFNMaDVyM2ZfNm5tTGdaV3Y0YmFhRHh1bl9IUnZhcmRnNUZNX2MzTldjVktxcFFRb0tyMlpUYW1wNEphSUdSbXBqMVl3STFpbXZRTGFnX1htZ2lCQUliNjlubUlDQ25SRFU0dEVKc2lOQXlmamFjYjA?oc=5",
+    "publishedAt": "2026-08-27T20:50:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "AP News",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-28",
+    "category": "world",
+    "title": "DEA bans sale and possession of 7-OH, scheduling kratom compound as Schedule I for 2 years",
+    "summary": "KATU • 01:54 am IST",
+    "source": "KATU",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOczB0UVAxVWJDa05meXRPVE1VVE9qWVdGQm5PRlhsMndJaWhBcy1Ib0V4MmJ4MWxwVlZRblVqU2NmVUh3WHp2aVNjMzBXdVlxdDZtLThDbFFiQzNjelJ3MUc3RE1WZ1RsZnpka19mTHpTOUtQY2FoNTRwcGs0WGplRWNZblJJYjEzVHJrdGR6dXd4YnNnLS1MZmJEeDB3VDdlaXZ0RDJwTEZ4LWJqc05wSXEyeGN4ckt4V2ZmbHd1dVFqdldpb0k5N3FTTnFTaTViamRiQ28td1R3QnJ5NFcwQldiMUZfbmpvU3VRX0dGVW0?oc=5",
+    "publishedAt": "2026-08-27T20:24:45.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "KATU",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-24",
+    "category": "world",
+    "title": "UAE ‘spy sheikh’ backs 49% stake in Trump family’s crypto bank venture, WSJ reports",
+    "summary": "CNBC • 01:46 am IST",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa09HdVpEaEJiemFYSEJ4MGFGWk5nZXRXcVJYbDJtUEJhbjlZTjhLMnUwQ2E0VkM2VFdzTFpOZnBoSTNwaW80WjhOV3pUN3BPYjlPTm9FeFhBYjVDTlVQeTVvWnQwRmFKRVhLVVNSZVdjSF9FQTZPeTZZYXk5YW02TjZR0gGHAUFVX3lxTE1USTFOd1FaZ2JhemR3LTNFRkc0MGJMUkdlWEJUZXdzT01Tb1ZaNWxrd0swUXYwTy1fTGFaLUZkcVBBZG5QeGpTYnhXSG1vMjdaaEtrZ1dJbVcxZXBkX29wNm9iQTBGMS16b1B6aDIwME1yLWt5c3BfNmMyZng4WUI1VHczNmtQUQ?oc=5",
+    "publishedAt": "2026-08-27T20:16:22.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "CNBC",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-5",
+    "category": "world",
+    "title": "OpenAI, 100+ companies warn of coming surge in AI-powered cyberattacks, call for global defense push",
+    "summary": "Fox Business • 01:06 am IST",
+    "source": "Fox Business",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUTdZeWNDWGFIOGlULWE0Q1ExMzNWeUNmd1MwWWRNYkxaYnVjeDczQlpLOEFLVDJlSnJ6aW1wSUFZekh4YWVCSVJyVnFRbFZnSlhHY0Q1NjVWMnNhR0pjUG40V1dRZ0lqUFU0THAwMS1wVnU4MHdkalBEZzdkWVdGZS10QzlLZGRWRGMxNkF4M1pNUHFtZWZCbmtLX0tKYURiaWhwRkRtMGg2cXhlektUTmZzZ3V6R0N1WEpQT3laSFZNVEVR0gHKAUFVX3lxTFBBbmQwdG9OMmtNTDZwMVVMRkxHV3dxWDA5aGdjTUVmaFRha0NIb1dsRkhpXzQ0ejlJT09XQVdpc0pZS05ubFZUZFFnZnc3dDNPcmhqZXluNncyXzUzWjlWeDkzb0s1dG5Ub2tXdEdHZDZiQ0NCSDBOM1hFb3d4TlJldUxvUDdJdnMzdDFmSVhXX3hqRVhxREJVcFBnZDVtaHAyRkhmdmhxNV8tTFQzN3VQbTVyUWpnUDBPSDNQUE9XRjRuaTQ2c2VsRUE?oc=5",
+    "publishedAt": "2026-08-27T19:36:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "Fox Business",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-1",
+    "category": "world",
+    "title": "Parents who lost children to social media harms question Meta settlement",
+    "summary": "Al Jazeera • 12:54 am IST",
+    "source": "Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaXNrdXBNbFFFeV9aX3dXRlEyYjFlMlpocDctMDVocV9XTU94c0JPdEZIR2U2S1NKQkN4RWl3U2Z2S1ZSTTZjdVZ0N3RxT185YmhvdU1MUEdZb2twMTJNckdLMmM5elRjOHV3a1BxYzBHd0ZzMkxTbWN5bEdDLTZFMFB6Sk00c1diQUVfUEZXM2dvdWtnWWVxQVhQeWtkYXR6RGFmQ3VVcXfSAa4BQVVfeXFMTy1JSDB3SlRJQ1pGM3hFSHFKUzBsRlRPZ1NpMndTdnpvaUV2MFNaYnR0d3B0TmR6bVBJRVlUTmhwdFNpeENWbWtJTHVOR2kzNXNmM3RqWWU3ZWItSVVKMnRWTzlqZ2NpMkxxUENzNFZEX25nZ2Q0UExLMmZQZHhFYWxxMmpPSFhPYjFWcDF2ZzF4RVZsYWN3ZWhfYVNpMy00a2MySERuT0NoU1NXVktn?oc=5",
+    "publishedAt": "2026-08-27T19:24:39.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Al Jazeera",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-15",
+    "category": "world",
+    "title": "Fed-Treasury ‘Regime Change’ May Fuel Bonds, Citrini Says",
+    "summary": "Bloomberg.com • 12:43 am IST",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbXBGNmo2bUM4OUFaODRqRVN3dDlzYjJwcGxyWDBGby1kRHlwcUQyRDMxcHJxRDBMWG41UlNzNmt3RWthZ3VKcGhRZlVaeWNrblVVcFlKUWpsSlVZSm1CcGJ5VzFselJ3YWxXb2o2cXZQSS00V0gtanlIWTlScWp4eGxJTHRFT3YzRUhYLTVEalFGd3kxRlJpOFFpWE9LN0NEUHE4aHp0SWtjTDBxUFlj?oc=5",
+    "publishedAt": "2026-08-27T19:13:55.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Bloomberg.com",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-28",
+    "category": "india",
+    "title": "Elon Musk's xAI Sued For Using Child Survivor Photos To Generate Abusive Content",
+    "summary": "NDTV • 12:31 am IST",
+    "source": "NDTV",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQTZJa1dUWVJ6cHB1ZjQtLVFPYW5PbHVZeUZpMkY4Zzh4UXR0T2ZLd2lTdWNWS3M2ank1M05mOVVnUmRFblREQ0dkeHFqOEFYSUd6SGI2RUpYV0gzbVJ0MU1tT1EyZkhKbHpsWUljanNqeTBqNVVlWXFSWFZhVVJKdk5oUTdDdUppend4ZTBnSDl5QWVjajJjQ2x6X2hneEZaR1gyXzBuZkVWcDdSNURSLUxIc1RSYmR1V24wM29HWjh5X285a0HSAc4BQVVfeXFMUEtTQ0pQZVExUzhTcng2d21aeDZuaFJBRTN0VVpzNm1lUUw1MWw1dERoMkl3VVpYZ1NkOXdXZEx6bDYwTmZjR3luTy0tdFJNWkUyUHBydTVncWpkUXotVnBpb0d5RzZfV1lnQlQ2NjlaM3dMMTFlQXhCV1pYOEF4eF9WZFRwWUVoLXg5QXZFTXc0V1UtN0Rwb1VhMG5wV1U1RGhmdm9YZ1JXdXVqNFQ2UWJpNExOeDlLcTlCbzVqdnVIakpEZk1fRUNVX0FjMmc?oc=5",
+    "publishedAt": "2026-08-27T19:01:09.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "NDTV",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-18",
+    "category": "india",
+    "title": "Major tech companies call for defensive surge to defeat AI-driven hacks",
+    "summary": "Reuters • 12:19 am IST",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX2dDaUNXZFo5LThPNmMzLXVqWXNQSXRNWE1ETDNibDRUbTdzYjcyd09vNlFoc2ZiajZGdThYUkowNF8yQVR1VXQzRnY5cmxBRW9HOGh3ZGU4UXJNUDlzQkFJVlhpVUNsVWk0Z3U0emVFWlhMcnZ1Q3lrQ05HZ3V4OW5ialRlQkFXdHhoYWZSWTg2ZHB2NnNfeTFaT1Y5THdFTXVGVWVheXFyU1pCVi1LYWExUnY1SDBr?oc=5",
+    "publishedAt": "2026-08-27T18:49:13.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "Reuters",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-17",
+    "category": "india",
+    "title": "Prince Harry and Meghan Markle hit out at Meta after £13 billion child harm settlement, slam ‘data-extrac",
+    "summary": "The Times of India • 12:02 am IST",
+    "source": "The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxObjNBLUhjdUJfdlp6dVptTUFyN3VlYWFSY1hnM09TaGE5SWpuTm9ac3JLd2xHd2FrVThwRUU5dG9acHpuYzQ3emhQalVOXzgyVi05WjdEWFJLOGZNR3dVdkZkNnd0aGFxRDA4WGVwdHZYd09SdTMyaTFnektLZXpHMGwxdTBjZ1c0My03MUlXZUJFalo2SGpoamtuM1RFelU0cHo3WFQwbkI3THg4bVNiTTlaaDRick4yTHNLWm1VV3JDUksxZGdpd055VGFYbWs5bHQ4anhGS1FsaWNQNHVMMjBZWTZHOVl5Y2gxYTRqOUIzVHA2XzVsSlpNNDZLMEJHUGh4dU9UdUh4dFpJUnNkNUtFWkVGaGJIekJTSzJNa1dRTFZobGcwdkNXSEJJWVQwUkpJNExKSkp2Z3ZQdkMzY2kyODNZMkZWSzhhOWotQmI4NE51S2F30gHcAkFVX3lxTE4wN09La3NidHpWR2dzMEhjZUc5Z3VBOFZZV2hRVkN3V2dGS1pNczk3enh1MS1HQ3AwRThGa1ZnV01yV0xFMXpjVjRsakpXa3dQMDVyS2hvTGRJLUhEMXFTZnNVYWt2TUI4NlZQQVdiU01FZW1QT28zMjI4eWQ3emRJLU84bzFTam1nbDhwdnhKckphczIyOWpHaFZlZHAyTnM4dEtzZXVTQkd4T3g0MmZ5ZnNMV0oyejV4U29BM2MxY21jYWpwbjZfeGZzYWJPMW5WVWlWWFlBUzB0VkJQN2I3dGVzczBxRkJSU1FsQ3BIakdSU1RkVVZubkREQnl5WnM4RlZ2c1Z3MHZMS21Kcko1czFCa2tFWE9helZ5OTItdjRpT1JsUFdlaUdZRmRSdEdJZmJ0cVlKQ1JQbFgzRUdpNmxLaGpoMFhwYnRZbGJVRUlLM1BmZ2hBbjliWg?oc=5",
+    "publishedAt": "2026-08-27T18:32:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "The Times of India",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-8",
+    "category": "india",
+    "title": "As onion touches ₹62 per kg, government blames middlemen for price rise",
+    "summary": "The Hindu • 10:22 pm IST",
+    "source": "The Hindu",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVXg1ZUtfeDd3Rk9mLXRyNGVqMWhQSzJrVk12aml1UHBnQ0JPVUItR21tQnZnaGhvSDN3LUZFaVZVNEpqOHVISzg2NE1wRTN0SExzVXl2TUdDYnlFSEJ6LUhrV0pmR3Q3LVlpa2I0aGhnN0N4SW05bFBKbS1fa2FQX2c2V0pkS2hmcllvck5sSVhUb0pZeGxYRXFURHE5RWQydjIwUmU5d3k2RmFTc2hZeU1sLW9rWGFCVlpteDVSdGdVUXdLdlA3YWU3ZXNsR2fSAdYBQVVfeXFMUFlMRUg2RTJxSEkyTzI4RUpWNEh0MTdTMy1fcmgtUUg3T21sdHRZaVRHRVBlcVY2cENnaHRWUmxMN2FOUWxMYmdvUmZFdnVDNlAxRTdZMXdRdFR1QkRqNlYwdjB5eGZqMXlTbmJoNTRHQmxZMEVsZ1ZSTHpOazg0U3E5dHlLM094MzZpNkc1RUtSSllKSGZfY3ZjOW1IU1F5U21vZFVrZldDYWhHR1ZMeU05ejYtcFFjeFpfbGluaGNFVmFEbDE5ZGVYMVZCakhHakFvOXZ6UQ?oc=5",
+    "publishedAt": "2026-08-27T16:52:30.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "The Hindu",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-21",
+    "category": "world",
+    "title": "Bessent’s Moves Test Boundaries Between Treasury and Fed",
+    "summary": "WSJ • 10:15 pm IST",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN2JMaVoxVGJuVFZSWGxvUXBkLTFPdnhIQmU4MjJOaU5iX1N3T1VHUzJBY1hwVm5oUzR1bTZJb3FqSXBkdWhFRDFkSjF2Z3dNdk5FdW9sYThYS3NRZTk0czFxUVlwNWxqbW1Jdzl0SHVaTE8ycjN6MWVSOGtlQmYxMWp2Y3Z3V2pCdWpERF93RW1ZWGhJSHZ2bFZuNVEzT29XS29DUVNwUGhua3A4?oc=5",
+    "publishedAt": "2026-08-27T16:45:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "WSJ",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-20",
+    "category": "world",
+    "title": "Mortgage rates rise, bringing the average rate on a 30-year home loan to where it was 4 weeks ago",
+    "summary": "AP News • 09:45 pm IST",
+    "source": "AP News",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLTFTVjEyWm1VQ1RHQXdUdUJLQ2RWVFR6Z2poMGZTUmhGXzFXbENQeUJxcllaUXJVdFdjcGdZS3FNc0VRYWh5VEdpb01yT3hNUDdKZkZ2alI4X2pEVkhpQklZZC1JMlhLZ3dmelc0QkNzNUJyd2NRMDVlSDd3cGJCYVpvU1pSVnRsczJVWVZkX096bHN4ckE?oc=5",
+    "publishedAt": "2026-08-27T16:15:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "AP News",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-26",
+    "category": "india",
+    "title": "India's Hero MotoCorp to increase stake in Ather with $184 million share purchase",
+    "summary": "Reuters • 09:33 pm IST",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSEFIeVJIMlRIT2xweXBnamtxRGhGLXEwTFY3am84TWxmeldzWnBuYmNrZThuYzA2QlFtLTBaempLdnhhX3lEd2F0Y1k2NlpEMkRlbVExcEcxZ1hQcldsTmc1MDlKbXBRSWZjSjVyWkhycjhuQzFYZHozbDh2WlNLM2NaV051MlR2emR5ZThKdVBmQlRhNTJWeVdIaHY3LVdhaE1jNVloV0RRTDh4UWhNWQ?oc=5",
+    "publishedAt": "2026-08-27T16:03:34.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Reuters",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-29",
+    "category": "world",
+    "title": "American Airlines announces new one-stop options from Nashville to Europe, Asia in 2027. Here’s the list of locations",
+    "summary": "WSMV • 09:22 pm IST",
+    "source": "WSMV",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYVJVVFkxejc0NjNTU2ZBOHM2dnotdVZzZ1g1UE9iYVU2OVNjWVVNMllHSzA1V1NMLTJYVFJNS0FUYWFYaWduYzZBMzFfY2d0TWktcFRKNTZrNEpVVVQyUnV1QlRCeHkxYTBDZVJKOEhJUUpLTWYwb2xGR3EtTzlLWmR2a3U2ZUZWQUhPMU1zRUM3X1ZrcEFhQjg4VjdLV3hacjYtMHV5SEx2Y1pySVV4ZmdkTkpZWS13bXR6dHNETGlvZ3RqTG4tdg?oc=5",
+    "publishedAt": "2026-08-27T15:52:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "WSMV",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-26",
+    "category": "world",
+    "title": "Fed's Lisa Cook pushes back on Trump firing threat, says she \"never committed mortgage fraud\"",
+    "summary": "CBS News • 09:10 pm IST",
+    "source": "CBS News",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYTk1MDR0Ujh5NWdHZzdqa0h3My1pT1JNV2x3cEI2RkluVHp0ZXI3em8wWWpld0RiZ0pXRVFhaXE0WGNqQmoxMThCVUdzOU5nTU5nMGswaFNTRm9YLUNUSVo0OHh5Ul82WUFfMzcyMk1JNUxkV2FyNnljc01rRjBSZ0ZtRkRjQQ?oc=5",
+    "publishedAt": "2026-08-27T15:40:48.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "CBS News",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-18",
+    "category": "world",
+    "title": "As RevMed preps for ‘historic’ pancreatic cancer launch, questions linger on the ground",
+    "summary": "Fierce Pharma • 08:57 pm IST",
+    "source": "Fierce Pharma",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaWluRGJRT1lyOVFVbDBIVVNsUGhlRkFIbjFRTEdCclYzVGtkUWxLekVPN0xlSHR0Nk16X05lZnNKT19XeGRUTlVxN1M0dy1VNlhObU1fOTRXVW5mWmV4YVkwYzViSWdwN1RocVdoeWZERktNaG9jOWYza1ltVUo0M0pVWXBFWUxBXzhaMWhXVjFoTlFldEZvTDY4RHlLWVNZYTN3a2RlaFlPZw?oc=5",
+    "publishedAt": "2026-08-27T15:27:09.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Fierce Pharma",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-3",
+    "category": "india",
+    "title": "\"Indian Debt Resolution\": Vijay Mallya On Subhash Chandra's 99.97% Debt Haircut",
+    "summary": "NDTV • 06:31 pm IST",
+    "source": "NDTV",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDB5Mjl2SEs2REltOXlPeWRlczZ4OHBBTTF6RXNJMDMtLTIwdWlTelhvYVFGUlRTaUtoSVpOUTlkdlBSaWRmem95Q2NhUFR6cVcxa3lydWNtaVB5MGE2cGRYNkZoU21fc3ROX1ZmTlpXRDRMeGx6aHBKTHJCbmVRU19sM0QtS2tQWkNQaC1aQjJqdTFVWFc0SEVqaDNLRERRRGllQVZfWGVLZnl6dUtzN1VTb1ptQdIBvgFBVV95cUxQOFV0U3NIVjV6SVVqem1mc1VNVzZydXlOS3BKbmJObGdwX0FEb2h1Nnlxenc2TXBpMTAtY19mbkY2SWNDdnBHbDVGQjZWMUJLT2NwVzhDd1FGN2dxYloyMWJCaW5ENWs1cDBmMG9fY25rd0xjLXJQaVllRnFyUVl5U0tnLWRWeWVNWmY5cFdYN3p3aDl2XzF6LS1vdklSZjgzWmVqQktlbWZqUEsyZjh1OXZSeEdhSy1tOFZKdWZn?oc=5",
+    "publishedAt": "2026-08-27T13:01:45.000Z",
+    "sentiment": "negative",
+    "tags": [
+      "NDTV",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-17",
+    "category": "world",
+    "title": "Swarm of 700 AI bots went rogue in hacking attack",
+    "summary": "Yahoo Tech • 04:24 pm IST",
+    "source": "Yahoo Tech",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWGgzbnRFZGlBdm9UZ2dWaFhtRC1TZ29aZkp4S2dHRWRmOUowWFZ1UmhkbXRmZHFoX3hVSzNUSkttVC1QRkdhZDFsV1MyZktTV1F3NXl2TWlpdlUtNUYzSDBIVzhBc3BfT0VOZWxhdmRUakp3VS1GR3ZiY2VJdm1VVEluZXk3eDVzMVhZ?oc=5",
+    "publishedAt": "2026-08-27T10:54:47.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Yahoo Tech",
+      "WORLD"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-20",
+    "category": "india",
+    "title": "Nvidia Says AI Boom Has Years to Run. Can It Keep Delivering?",
+    "summary": "TradingView • 02:51 pm IST",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSFVKbXpSUk54MlJyLUtxMmdCZk8yejJYc0dnT2lVMVlndVUwZk5ibkptOE40UDRFZzhWRTk1UHpDZDVNM3N0RDNXdklyRFhJcVg3T1hZVlJqdXkxcUR2a0dzUXlBMVN1ZWJWLU50TkJmWlZaSVVQTWNhT0NEUnQ4TEpkLXVnLWJnSTczS19HZE81Y0NqLWdtU3Vzc3pCWXRhaW0yU0d6dEZmc3hL?oc=5",
+    "publishedAt": "2026-08-27T09:21:31.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "TradingView",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-7",
+    "category": "india",
+    "title": "India's RBI gives banks more flexibility in swapping overseas dollar deposits",
+    "summary": "Reuters • 01:59 pm IST",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNXJjcEl4bWRUYjFqVlhpNTZJekhRb254NUpEV3NnZks4TjJkSjBNeTZZNnRVczQtT01QZWFXNFFpaWNGSXl4Y242aWthVUl5WGNvNzc4Mm9ZSnFuMVlxQndmQXdlc2xhOVpkb0JxeXJic1BYV1Z4a1otam9oN1U5TGVXdTZ1djROT3FqSkFGSUlRZDJlS0xkdEpPeVl6VngybmQ4bUdhTHBTS3F2WVhDR251ZVZYeVVWeE1WdEVB?oc=5",
+    "publishedAt": "2026-08-27T08:29:43.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Reuters",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-9",
+    "category": "india",
+    "title": "Disney songs, a 'covert' Khan Market video & a legal notice: What Meta's smart glasses can do and how to spot them | Hindustan Times",
+    "summary": "Hindustan Times • 01:07 pm IST",
+    "source": "Hindustan Times",
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSmNwYjlnMlhibHhWTnVFQWlTUEpIdkZ3OVFReWpVTVRyeGN5a0xJcnRBZ0VpU3hNcml0MEJ2UUR2VkM4Nzg2U3l1WUdwdU41Z29tQ2dFSGtETGJzLU1WWWcxVVoxRnhJbnBUX1FFSnVlSGo1NGNtc2ZjaEt0X0QwWG1HS2VWWjViQVlrUHhwRWhXZkVNdTVhNVctWWFtM2lQQ3ZrYmNydDl1QmZGRHhvOEhRWXFQLXpPN2w2M3NveEwyeXpTZGViMHp1MlFaOXBHODRKQzJoc053anhYeDlaV2VLTXlfZnpxMzVtRjFMSFg3akVHR0UwWm4wR3F2aWZzdFFtcTFhWmlMZ9IBjwJBVV95cUxPZjl6YkEwdnVMd1duZUJPbHBHZjAxY1liclppWjhmeG1tbW0xRDZCeHRsRDd4U1RaUXh1V09jQW9Wa2dTU3pOeDFFRHBhdUdzRVREVHpKYlAzTHlCeEVIY2hFQmxUZFhmNmZIa1NHTWVpSlBqZk9OejR5R2QyaW9iOWpFUzdKLTF5WnJxaEZ4bnRKR1pfV2NySlEzWjBqLTY5czd3S2ZPTFJZclVrOXZzUGo1REdqRmM5WGxBQlhaNHFOTVo2OWRyV0lHTWJrdGRJeG9fOXlwbGhpVnA0c0NIbkhOdEpHbzAyTTRyMFhlczQ2Qm9CbWlSSDNtVjkwUTBHcXNiZEJGbkk0MTBHa1M4?oc=5",
+    "publishedAt": "2026-08-27T07:37:16.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "Hindustan Times",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-21",
+    "category": "india",
+    "title": "Why are HDFC Bank shares falling? US class-action lawsuit explained, bank responds",
+    "summary": "BusinessLine • 10:25 am IST",
+    "source": "BusinessLine",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcXdnNGRRbEh2NWNUMTZRcG1tWHVEb0VuMUxEOXRpNHNFVzlsZ25PS3dzZm9IcmFwX0VVVFdPV1JCczRKNW4yN3RRaEM1VDRvbHFKVjljTlhZNWd0MnlhTHpqS3hkalplU2lNLTRQQTI1M0NwcXAweGl1TWVLQW9CNHVrczQwQTlmdG4wUHBQNEYwcTNCcWZ0LVRzcUpqQndDdjFPWXZ4c3NUNEszNmp2Y3pEX0tLeVIyM0NHaThHQ1B4eUs5eWlISGtqYVFiSUdta2lhU2NYUHVrQmJfeVHSAeQBQVVfeXFMTVFESnZMaTg1Q0xnZFdqU3M5d0s1QzA1UXRVUEdMQkNpb3FJZlZSVUpxcGhfcTFxMU5KTVF0SmVXYzNWTkVvY1g4NmUyLS12T25fMVZ3cTcxMXdBUWNxZ0V2d0N2azR6QXRleGVTYjdxMi1MWXZWVC11QTBtVEhtSmh3U01xNXBWYVMtTVFSMmRCT09iV1JSU2g4Vl9JcDJ1MlpnMmFYLWNkRVBYSVNyOHNuRDY5eHV5M2p2a2w2dURrSHUxd0RKY1dzS1RIVGZXVzBVT3h4bE16VlBKeG9ZeVRkdFFI?oc=5",
+    "publishedAt": "2026-08-27T04:55:37.000Z",
+    "sentiment": "negative",
+    "tags": [
+      "BusinessLine",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-19",
+    "category": "india",
+    "title": "Sugar gets costlier, buying gets restricted: Zepto, Blinkit and Swiggy cap orders",
+    "summary": "India Today • 09:24 am IST",
+    "source": "India Today",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcnpNbHVIVS1ndUtrYlV2RXFvS28xRkpnQW9fZU5xc1U3MFR4V2o0ZE9oVzdWNjZmQ3BTUDQtSUhHY05URmotaVdFOEdYV1FzRXJldnp0a05mZU45MHNkZTlua0R5X1pZQnA3am1xdVNYSUY4WGZlOWNuNHV0dXFBRTRNMzM3cko2b2dvY0NqOXQ4enk1OElGbHYtZ0lHcUMtaGFKUXQ0ZXJ4RDlscVVIcF9kYXJrWGFNQVZvRFVtSEJ6Q3drVGg0M3Z3?oc=5",
+    "publishedAt": "2026-08-27T03:54:34.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "India Today",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-22",
+    "category": "india",
+    "title": "IPO GMP Today: Hy-Tech Engineers vs Symbiotec vs Skyways—Which Signals Better Listing Gains?",
+    "summary": "NDTV Profit • 09:17 am IST",
+    "source": "NDTV Profit",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSjRBT3FiUFhtSmJ3R25XNlFoX0xLcGV4c213WWFDdUZiWkZvc2pYS3RlUEw3SnVGdnRuc01FNW1sbERHbVRhUEU4NDlUdll1aEVRQlc1WDhfQ3N5cVFJM1dtSWxUdjdBS3I4QURyeEpVWHJHQlk4MTdEVFd0LXAxOHVSVTVSbGpTUHBNbEVSWjR1Q2R1TUJxUS1YRTh4dGh1RnhrWE5EUURNRVJGckswMUhFYWU0SlMtNmlHcXNfMXJjb2M3cy1kQ0ViWDF1VUnSAdcBQVVfeXFMTk1xcVlRaFV1ZVJEcHdSUk1CYXd1aHk3MjNVV0s3alFDaFNCWFdQTlo0ckIyUE8xeTQwazFEd3NDbzY4Yy1xS0FYLTBKLXpWSmExQ1ZuT3VjVHRQNjBlbHVCaFkzV2gwbFRiOThvWm5kVHRpcm55VWl5LW5lSTJFVE5IRWNfeDg1UUxVSmdJeEdld3BFTEtOX1p4YkhsbHNyNlE0UWhJekRMZmpadUxLdlRKTTVKcGtCcVJVa1MwUTIwQThjSXphU054M1lBcG9GWUpFSVE2UU0?oc=5",
+    "publishedAt": "2026-08-27T03:47:30.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "NDTV Profit",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-india-14",
+    "category": "india",
+    "title": "Rupee dips, reversing intraday gains, as importer dollar demand dominates",
+    "summary": "Reuters • 08:28 am IST",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQajRHZzM3ZloxRVktVDFfR290MDdxZDJIVWtvcVJtSUZ1WlVySEJ0aG0wZnJWWVRodVFZM1hCNjYzQ2htWnR0YzVfMU9jVGc1V3VnYXdteDVqbTNCMWd6X2hESnlwcTl5UUVEWVdJUF96X2szeUx2WWlDMkZiZ0pTSjFURThuZ1FaUHk5aF9nZ1QyVk1jSmpjanhvVnZwOXJBNWxpa2tUOGU4c2I2cmFrRFRURHFMTmRNampwSnNteHd0b09vWDhv?oc=5",
+    "publishedAt": "2026-08-27T02:58:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "Reuters",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "gnews-world-19",
+    "category": "world",
+    "title": "Trump team wants billion-dollar companies to be small businesses",
+    "summary": "The Independent • 01:49 am IST",
+    "source": "The Independent",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRVVCNVhDMHN5R0Z2NGlpUTBHaENTYklBNTJOOE1tWllYaDE4ZGZWNFVNSFBHbGVjYl9FMFVONEVrRVotRng0eVpYQ3dEd090ZU1IcmUzSzFEYXF0OGEtelpLd04tNVR1TFl3d3c3dzlIN2VUeEotRWlObGlZQWFLUVUtV1ZISlBXeFdvMHp1bHloRTJTVDBhXzVZNlNnU2hyX2FOOVdiZUdVY1laakZpVg?oc=5",
+    "publishedAt": "2026-08-26T20:19:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "The Independent",
+      "WORLD"
     ],
     "symbols": []
   }

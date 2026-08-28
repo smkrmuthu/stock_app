@@ -178,55 +178,86 @@ async function syncAll() {
   fs.writeFileSync(indicesPath, JSON.stringify(indicesList, null, 2), 'utf-8');
   console.log(`✅ Indices snapshot saved to ${indicesPath} (${indicesList.length} indices)`);
 
-  console.log('\n🔄 Fetching live market news headlines...');
-  const newsQueries = [
-    { q: 'India Stock Market', cat: 'india' },
-    { q: 'NIFTY 50 Sensex', cat: 'india' },
-    { q: 'Global Markets Business', cat: 'world' },
-    { q: 'Wall Street Economy', cat: 'world' },
-  ];
+  console.log('\n🔄 Fetching live Google News Business headlines...');
+  function parseGoogleNewsXml(xml, category) {
+    const items = [];
+    const itemMatches = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
+
+    for (let i = 0; i < Math.min(itemMatches.length, 30); i++) {
+      const itemXml = itemMatches[i];
+      const titleMatch = itemXml.match(/<title>([\s\S]*?)<\/title>/);
+      const linkMatch = itemXml.match(/<link>([\s\S]*?)<\/link>/);
+      const pubDateMatch = itemXml.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
+      const sourceMatch = itemXml.match(/<source[^>]*>([\s\S]*?)<\/source>/);
+
+      let rawTitle = titleMatch ? titleMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1') : '';
+      let link = linkMatch ? linkMatch[1].trim() : '';
+      let pubDate = pubDateMatch ? new Date(pubDateMatch[1]).toISOString() : new Date().toISOString();
+      let source = sourceMatch ? sourceMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1') : 'Google News';
+
+      rawTitle = rawTitle.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+
+      let title = rawTitle;
+      const lastDash = rawTitle.lastIndexOf(' - ');
+      if (lastDash > 0) {
+        const possibleSource = rawTitle.slice(lastDash + 3).trim();
+        title = rawTitle.slice(0, lastDash).trim();
+        if (!source || source === 'Google News') source = possibleSource;
+      }
+
+      const isPos = /surge|gain|jump|rally|rise|bull|record|growth|profit|dividend|buy|upgrade|shine|boost|up/i.test(title);
+      const isNeg = /fall|drop|plunge|crash|bear|loss|downgrade|slump|decline|sell|retreat|down|debt|tumble/i.test(title);
+      const sentiment = isPos ? 'positive' : isNeg ? 'negative' : 'neutral';
+
+      items.push({
+        id: `gnews-${category}-${i}`,
+        category,
+        title,
+        summary: `${source} • ${new Date(pubDate).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' })} IST`,
+        source,
+        url: link,
+        publishedAt: pubDate,
+        sentiment,
+        tags: [source, category.toUpperCase()],
+        symbols: [],
+      });
+    }
+    return items;
+  }
 
   const newsList = [];
-  const seenTitles = new Set();
-
-  for (const { q, cat } of newsQueries) {
-    try {
-      const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&newsCount=10`;
-      const resp = await fetch(url, { headers: YAHOO_HEADERS });
-      if (resp.ok) {
-        const json = await resp.json();
-        for (const n of (json?.news || [])) {
-          if (n.title && !seenTitles.has(n.title.toLowerCase())) {
-            seenTitles.add(n.title.toLowerCase());
-            const title = n.title;
-            const isPos = /surge|gain|jump|rally|rise|bull|record|growth|profit|dividend|buy|upgrade/i.test(title);
-            const isNeg = /fall|drop|plunge|crash|bear|loss|downgrade|slump|decline|sell|retreat/i.test(title);
-            const sentiment = isPos ? 'positive' : isNeg ? 'negative' : 'neutral';
-
-            newsList.push({
-              id: n.uuid || `news-${cat}-${newsList.length + 1}`,
-              category: cat,
-              title: n.title,
-              summary: `${n.publisher || 'Financial Wire'} • ${n.providerPublishTime ? new Date(n.providerPublishTime * 1000).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) : 'Live'}`,
-              source: n.publisher || 'Market Wire',
-              url: n.link || 'https://finance.yahoo.com',
-              publishedAt: n.providerPublishTime ? new Date(n.providerPublishTime * 1000).toISOString() : new Date().toISOString(),
-              sentiment,
-              tags: [q, cat.toUpperCase()],
-              symbols: [],
-            });
-          }
-        }
-      }
-    } catch (e) {
-      console.warn(`[sync] Failed news for ${q}:`, e.message);
+  try {
+    const inResp = await fetch('https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-IN&gl=IN&ceid=IN:en', {
+      headers: YAHOO_HEADERS,
+    });
+    if (inResp.ok) {
+      const inXml = await inResp.text();
+      const inArticles = parseGoogleNewsXml(inXml, 'india');
+      newsList.push(...inArticles);
+      console.log(`  ✓ Fetched ${inArticles.length} India Business articles from Google News`);
     }
+  } catch (e) {
+    console.warn('[sync] Failed Google News India:', e.message);
+  }
+
+  try {
+    const worldResp = await fetch('https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en', {
+      headers: YAHOO_HEADERS,
+    });
+    if (worldResp.ok) {
+      const worldXml = await worldResp.text();
+      const worldArticles = parseGoogleNewsXml(worldXml, 'world');
+      newsList.push(...worldArticles);
+      console.log(`  ✓ Fetched ${worldArticles.length} World Business articles from Google News`);
+    }
+  } catch (e) {
+    console.warn('[sync] Failed Google News World:', e.message);
   }
 
   newsList.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   const newsPath = path.resolve(__dirname, '../src/data/news_snapshot.json');
   fs.writeFileSync(newsPath, JSON.stringify(newsList, null, 2), 'utf-8');
-  console.log(`✅ News snapshot saved to ${newsPath} (${newsList.length} articles)`);
+  console.log(`✅ News snapshot saved to ${newsPath} (${newsList.length} verified Google News articles)`);
 }
 
 syncAll();

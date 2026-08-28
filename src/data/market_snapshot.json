@@ -22,7 +22,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:38:58.555Z"
+    "_fetchedAt": "2026-08-28T13:50:56.306Z"
   },
   "TCS": {
     "symbol": "TCS",
@@ -47,7 +47,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:38:58.870Z"
+    "_fetchedAt": "2026-08-28T13:50:56.609Z"
   },
   "INFY": {
     "symbol": "INFY",
@@ -72,7 +72,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:38:59.353Z"
+    "_fetchedAt": "2026-08-28T13:50:56.960Z"
   },
   "HDFCBANK": {
     "symbol": "HDFCBANK",
@@ -97,7 +97,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:38:59.850Z"
+    "_fetchedAt": "2026-08-28T13:50:57.393Z"
   },
   "ICICIBANK": {
     "symbol": "ICICIBANK",
@@ -122,7 +122,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:00.146Z"
+    "_fetchedAt": "2026-08-28T13:50:57.688Z"
   },
   "SBIN": {
     "symbol": "SBIN",
@@ -147,7 +147,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:00.437Z"
+    "_fetchedAt": "2026-08-28T13:50:58.107Z"
   },
   "LT": {
     "symbol": "LT",
@@ -172,7 +172,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:00.734Z"
+    "_fetchedAt": "2026-08-28T13:50:58.407Z"
   },
   "ITC": {
     "symbol": "ITC",
@@ -197,7 +197,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:01.034Z"
+    "_fetchedAt": "2026-08-28T13:50:58.822Z"
   },
   "BHARTIARTL": {
     "symbol": "BHARTIARTL",
@@ -222,7 +222,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:01.342Z"
+    "_fetchedAt": "2026-08-28T13:50:59.234Z"
   },
   "TATASTEEL": {
     "symbol": "TATASTEEL",
@@ -247,7 +247,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:01.655Z"
+    "_fetchedAt": "2026-08-28T13:50:59.563Z"
   },
   "HATSUN": {
     "symbol": "HATSUN",
@@ -272,7 +272,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:02.029Z"
+    "_fetchedAt": "2026-08-28T13:50:59.868Z"
   },
   "DODLA": {
     "symbol": "DODLA",
@@ -297,7 +297,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:03.040Z"
+    "_fetchedAt": "2026-08-28T13:51:00.896Z"
   },
   "20MICRONS": {
     "symbol": "20MICRONS",
@@ -322,7 +322,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:03.651Z"
+    "_fetchedAt": "2026-08-28T13:51:01.588Z"
   },
   "AAPL": {
     "symbol": "AAPL",
@@ -330,15 +330,15 @@
     "exchange": "NASDAQ",
     "sector": "Technology",
     "industry": "Consumer Electronics & Software",
-    "price": 314.58,
-    "change": 1.13,
-    "changePercent": 0.36,
-    "open": 311.99,
-    "high": 315.4,
-    "low": 309.4,
-    "previousClose": 313.45,
-    "volume": 22870563,
-    "avgVolume": 22870563,
+    "price": 315.8,
+    "change": 1.22,
+    "changePercent": 0.39,
+    "open": 317.09,
+    "high": 318.13,
+    "low": 315.5,
+    "previousClose": 314.58,
+    "volume": 3606606,
+    "avgVolume": 3606606,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -347,7 +347,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:03.984Z"
+    "_fetchedAt": "2026-08-28T13:51:01.895Z"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -355,15 +355,15 @@
     "exchange": "NASDAQ",
     "sector": "Consumer Cyclical",
     "industry": "EV & Clean Energy",
-    "price": 354.81,
-    "change": 8.99,
-    "changePercent": 2.6,
-    "open": 346.3,
-    "high": 355.74,
-    "low": 345.45,
-    "previousClose": 345.82,
-    "volume": 26623181,
-    "avgVolume": 26623181,
+    "price": 355.5,
+    "change": 0.69,
+    "changePercent": 0.19,
+    "open": 357.1,
+    "high": 358.8,
+    "low": 354.92,
+    "previousClose": 354.81,
+    "volume": 5177016,
+    "avgVolume": 5177016,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -372,7 +372,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:04.284Z"
+    "_fetchedAt": "2026-08-28T13:51:02.241Z"
   },
   "NVDA": {
     "symbol": "NVDA",
@@ -380,15 +380,15 @@
     "exchange": "NASDAQ",
     "sector": "Technology",
     "industry": "AI Hardware & Semiconductors",
-    "price": 227.98,
-    "change": 18.32,
-    "changePercent": 8.74,
-    "open": 222.59,
-    "high": 230.47,
-    "low": 220.9,
-    "previousClose": 209.66,
-    "volume": 454000042,
-    "avgVolume": 454000042,
+    "price": 225.85,
+    "change": -2.13,
+    "changePercent": -0.93,
+    "open": 227.33,
+    "high": 229.26,
+    "low": 225.72,
+    "previousClose": 227.98,
+    "volume": 23510646,
+    "avgVolume": 23510646,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -397,7 +397,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:04.585Z"
+    "_fetchedAt": "2026-08-28T13:51:02.537Z"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -405,15 +405,15 @@
     "exchange": "NASDAQ",
     "sector": "Technology",
     "industry": "Cloud & Enterprise Software",
-    "price": 505.06,
-    "change": 8.69,
-    "changePercent": 1.75,
-    "open": 493.55,
-    "high": 506.47,
-    "low": 490.08,
-    "previousClose": 496.37,
-    "volume": 20220709,
-    "avgVolume": 20220709,
+    "price": 512.23,
+    "change": 7.17,
+    "changePercent": 1.42,
+    "open": 505.33,
+    "high": 513.14,
+    "low": 504.87,
+    "previousClose": 505.06,
+    "volume": 3359237,
+    "avgVolume": 3359237,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -422,7 +422,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:04.890Z"
+    "_fetchedAt": "2026-08-28T13:51:03.002Z"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -430,15 +430,15 @@
     "exchange": "NASDAQ",
     "sector": "Communication",
     "industry": "Internet & Search Engine",
-    "price": 340.65,
-    "change": -1.35,
-    "changePercent": -0.39,
-    "open": 339.69,
-    "high": 341.69,
-    "low": 338.52,
-    "previousClose": 342,
-    "volume": 14987520,
-    "avgVolume": 14987520,
+    "price": 343.11,
+    "change": 2.46,
+    "changePercent": 0.72,
+    "open": 340.76,
+    "high": 343.4,
+    "low": 340.27,
+    "previousClose": 340.65,
+    "volume": 1742141,
+    "avgVolume": 1742141,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -447,7 +447,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:05.196Z"
+    "_fetchedAt": "2026-08-28T13:51:03.307Z"
   },
   "AMZN": {
     "symbol": "AMZN",
@@ -455,15 +455,15 @@
     "exchange": "NASDAQ",
     "sector": "Consumer Cyclical",
     "industry": "E-Commerce & AWS Cloud",
-    "price": 256.26,
-    "change": -4.02,
-    "changePercent": -1.54,
-    "open": 259.23,
-    "high": 259.66,
-    "low": 255.02,
-    "previousClose": 260.28,
-    "volume": 29219144,
-    "avgVolume": 29219144,
+    "price": 259.34,
+    "change": 3.08,
+    "changePercent": 1.2,
+    "open": 258.32,
+    "high": 259.75,
+    "low": 257.78,
+    "previousClose": 256.26,
+    "volume": 3309402,
+    "avgVolume": 3309402,
     "marketCap": 0,
     "peRatio": 0,
     "eps": 0,
@@ -472,6 +472,6 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:39:05.517Z"
+    "_fetchedAt": "2026-08-28T13:51:03.739Z"
   }
 }

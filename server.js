@@ -222,7 +222,54 @@ app.get('/api/stock/ticker-batch/:symbols', async (req, res) => {
   res.json(results);
 });
 
-// ─── GET /api/news — Live Market News Endpoint ──────────────────────────────
+// ─── Helper to parse Google News RSS XML ───────────────────────────────────
+function parseGoogleNewsRss(xml, category) {
+  const items = [];
+  const itemMatches = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
+
+  for (let i = 0; i < itemMatches.length; i++) {
+    const itemXml = itemMatches[i];
+    const titleMatch = itemXml.match(/<title>([\s\S]*?)<\/title>/);
+    const linkMatch = itemXml.match(/<link>([\s\S]*?)<\/link>/);
+    const pubDateMatch = itemXml.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
+    const sourceMatch = itemXml.match(/<source[^>]*>([\s\S]*?)<\/source>/);
+
+    let rawTitle = titleMatch ? titleMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1') : '';
+    let link = linkMatch ? linkMatch[1].trim() : '';
+    let pubDate = pubDateMatch ? new Date(pubDateMatch[1]).toISOString() : new Date().toISOString();
+    let source = sourceMatch ? sourceMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1') : 'Google News';
+
+    rawTitle = rawTitle.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+
+    let title = rawTitle;
+    const lastDash = rawTitle.lastIndexOf(' - ');
+    if (lastDash > 0) {
+      const possibleSource = rawTitle.slice(lastDash + 3).trim();
+      title = rawTitle.slice(0, lastDash).trim();
+      if (!source || source === 'Google News') source = possibleSource;
+    }
+
+    const isPos = /surge|gain|jump|rally|rise|bull|record|growth|profit|dividend|buy|upgrade|shine|boost|up/i.test(title);
+    const isNeg = /fall|drop|plunge|crash|bear|loss|downgrade|slump|decline|sell|retreat|down|debt|tumble/i.test(title);
+    const sentiment = isPos ? 'positive' : isNeg ? 'negative' : 'neutral';
+
+    items.push({
+      id: `gnews-${category}-${i}-${Math.random().toString(36).slice(2, 7)}`,
+      category,
+      title,
+      summary: `${source} • ${new Date(pubDate).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' })} IST`,
+      source,
+      url: link,
+      publishedAt: pubDate,
+      sentiment,
+      tags: [source, category.toUpperCase()],
+      symbols: [],
+    });
+  }
+  return items;
+}
+
+// ─── GET /api/news — Live Google News RSS Endpoint ──────────────────────────
 app.get('/api/news', async (req, res) => {
   const category = (req.query.category || 'india').toLowerCase();
   const symbol = req.query.symbol;
@@ -231,53 +278,35 @@ app.get('/api/news', async (req, res) => {
   const cached = getCached(cacheKey);
   if (cached) return res.json(cached);
 
-  let searchTerms = ['India Stock Market', 'NIFTY', 'Sensex'];
+  let feedUrl = 'https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-IN&gl=IN&ceid=IN:en';
+
   if (category === 'world') {
-    searchTerms = ['Global Markets', 'Wall Street', 'Tech Stocks'];
+    feedUrl = 'https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en';
   } else if (symbol) {
-    searchTerms = [symbol, `${symbol} Stock`];
+    feedUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(symbol + ' share stock price NSE India')}&hl=en-IN&gl=IN&ceid=IN:en`;
   }
 
-  const allNews = [];
-  const seenTitles = new Set();
+  try {
+    const resp = await fetch(feedUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      },
+    });
 
-  for (const query of searchTerms) {
-    try {
-      const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(query)}&newsCount=10`;
-      const resp = await fetch(url, { headers: YAHOO_HEADERS });
-      if (resp.ok) {
-        const json = await resp.json();
-        for (const n of (json?.news || [])) {
-          if (n.title && !seenTitles.has(n.title.toLowerCase())) {
-            seenTitles.add(n.title.toLowerCase());
-            const title = n.title;
-            const isPos = /surge|gain|jump|rally|rise|bull|record|growth|profit|dividend|buy|upgrade/i.test(title);
-            const isNeg = /fall|drop|plunge|crash|bear|loss|downgrade|slump|decline|sell|retreat/i.test(title);
-            const sentiment = isPos ? 'positive' : isNeg ? 'negative' : 'neutral';
-
-            allNews.push({
-              id: n.uuid || `news-${Math.random().toString(36).slice(2, 9)}`,
-              category: category === 'world' ? 'world' : 'india',
-              title: n.title,
-              summary: `${n.publisher || 'Financial Times'} • ${n.providerPublishTime ? new Date(n.providerPublishTime * 1000).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) : 'Live'}`,
-              source: n.publisher || 'Market Wire',
-              url: n.link || 'https://finance.yahoo.com',
-              publishedAt: n.providerPublishTime ? new Date(n.providerPublishTime * 1000).toISOString() : new Date().toISOString(),
-              sentiment,
-              tags: [query, category.toUpperCase()],
-              symbols: symbol ? [symbol.toUpperCase()] : [],
-            });
-          }
-        }
+    if (resp.ok) {
+      const xml = await resp.text();
+      const articles = parseGoogleNewsRss(xml, category === 'world' ? 'world' : 'india');
+      if (symbol) {
+        articles.forEach((a) => a.symbols = [symbol.toUpperCase()]);
       }
-    } catch (e) {
-      console.warn(`[server] News fetch failed for ${query}:`, e.message);
+      setCache(cacheKey, articles, 120_000); // 2 min cache
+      return res.json(articles);
     }
+  } catch (e) {
+    console.warn(`[server] Google News RSS fetch failed for ${feedUrl}:`, e.message);
   }
 
-  allNews.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
-  setCache(cacheKey, allNews, 120_000); // 2 min cache
-  res.json(allNews);
+  res.json([]);
 });
 
 // ─── Health check ───────────────────────────────────────────────────────────

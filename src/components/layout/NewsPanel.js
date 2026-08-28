@@ -40,9 +40,12 @@ export class NewsPanel {
   _buildShell() {
     return `
       <div class="news-panel__header">
-        <div class="news-panel__title">
-          <span>📰</span>
-          <span>Market News Feed</span>
+        <div class="news-panel__title" style="display: flex; align-items: center; justify-content: space-between;">
+          <div style="display: flex; align-items: center; gap: var(--space-2);">
+            <span>📰</span>
+            <span>Google News Feed</span>
+          </div>
+          <span style="font-size: 10px; font-weight: var(--fw-bold); color: var(--color-brand-light); background: rgba(59,130,246,0.1); padding: 2px 6px; border-radius: var(--radius-full); text-transform: uppercase; letter-spacing: 0.05em;">Live</span>
         </div>
       </div>
 
