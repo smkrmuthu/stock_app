@@ -1,12 +1,12 @@
 [
   {
-    "id": "3271576d-d9ff-323f-adc3-efe979e6e3cf",
+    "id": "97d7b026-7d32-348c-823c-33f310be7df5",
     "category": "india",
-    "title": "Kazia Therapeutics Prices $40 Million Public Offering",
-    "summary": "MT Newswires • 28/8/2026, 5:30:44 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/healthcare/articles/kazia-therapeutics-prices-40-million-120044319.html",
-    "publishedAt": "2026-08-28T12:00:44.000Z",
+    "title": "Tenon Medical Announces Pricing of $3M Private Placement Offering",
+    "summary": "ACCESS Newswire • 28/8/2026, 5:45:00 pm",
+    "source": "ACCESS Newswire",
+    "url": "https://finance.yahoo.com/healthcare/articles/tenon-medical-announces-pricing-3m-121500517.html",
+    "publishedAt": "2026-08-28T12:15:00.000Z",
     "sentiment": "neutral",
     "tags": [
       "NIFTY 50 Sensex",
@@ -15,28 +15,58 @@
     "symbols": []
   },
   {
-    "id": "15a1facc-6767-35fc-b5e1-8172fa85728b",
+    "id": "dfc0087b-8ede-36c7-839e-500f925fd411",
     "category": "india",
-    "title": "Energean plans to buy bp’s Egyptian oil and gas assets for $1bn",
-    "summary": "Offshore Technology • 28/8/2026, 5:30:23 pm",
-    "source": "Offshore Technology",
-    "url": "https://finance.yahoo.com/m/15a1facc-6767-35fc-b5e1-8172fa85728b/energean-plans-to-buy-bp%E2%80%99s.html",
-    "publishedAt": "2026-08-28T12:00:23.000Z",
+    "title": "Cathie Wood Just Sold Another $18 Million of AMD Stock",
+    "summary": "GuruFocus.com • 28/8/2026, 5:44:54 pm",
+    "source": "GuruFocus.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-sold-another-121454057.html",
+    "publishedAt": "2026-08-28T12:14:54.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "NIFTY 50 Sensex",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "32278155-129f-3379-b31e-2bd0d4c3444e",
+    "category": "india",
+    "title": "Michael Burry Delivers Blunt Message on Nvidia Stock Again",
+    "summary": "GuruFocus.com • 28/8/2026, 5:44:02 pm",
+    "source": "GuruFocus.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-delivers-blunt-message-121402150.html",
+    "publishedAt": "2026-08-28T12:14:02.000Z",
     "sentiment": "positive",
     "tags": [
-      "India Stock Market",
+      "NIFTY 50 Sensex",
       "INDIA"
     ],
     "symbols": []
   },
   {
-    "id": "35ca2af0-cf31-3c4a-929c-1fa0a391a610",
+    "id": "8877e15c-b7ad-3e7f-9f2a-5d8fea5147ad",
     "category": "india",
-    "title": "Higher Gold Prices Help These Mining Stocks Dominate The IBD 50",
-    "summary": "Investor's Business Daily • 28/8/2026, 5:30:03 pm",
-    "source": "Investor's Business Daily",
-    "url": "https://finance.yahoo.com/m/35ca2af0-cf31-3c4a-929c-1fa0a391a610/higher-gold-prices-help-these.html",
-    "publishedAt": "2026-08-28T12:00:03.000Z",
+    "title": "Yum! Brands, Inc. Declares Quarterly Dividend of $0.75 Per Share",
+    "summary": "Business Wire • 28/8/2026, 5:44:00 pm",
+    "source": "Business Wire",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/yum-brands-inc-declares-quarterly-121400533.html",
+    "publishedAt": "2026-08-28T12:14:00.000Z",
+    "sentiment": "positive",
+    "tags": [
+      "NIFTY 50 Sensex",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "4ea2b708-5b49-3ace-8462-f4dd083abb07",
+    "category": "india",
+    "title": "Washington chemical tank was called unfit for service before deadly failure, investigators find",
+    "summary": "Associated Press • 28/8/2026, 5:43:33 pm",
+    "source": "Associated Press",
+    "url": "https://finance.yahoo.com/m/4ea2b708-5b49-3ace-8462-f4dd083abb07/washington-chemical-tank-was.html",
+    "publishedAt": "2026-08-28T12:13:33.000Z",
     "sentiment": "neutral",
     "tags": [
       "NIFTY 50 Sensex",
@@ -45,13 +75,88 @@
     "symbols": []
   },
   {
-    "id": "28709650-6bf3-32e0-9253-5d5f0e46e8fa",
+    "id": "bb55cb73-35e0-3bec-8b03-3ced42e4ebcb",
     "category": "india",
-    "title": "Dow Jones Futures: Fed Chief Warsh Speech Due; Marvell, Affirm, PayPal, Elastic Are Big Movers",
-    "summary": "Investor's Business Daily • 28/8/2026, 5:30:01 pm",
-    "source": "Investor's Business Daily",
-    "url": "https://finance.yahoo.com/m/28709650-6bf3-32e0-9253-5d5f0e46e8fa/dow-jones-futures%3A-fed-chief.html",
-    "publishedAt": "2026-08-28T12:00:01.000Z",
+    "title": "Marvell Stock Sinks as Google AI Deal Revenue Faces a Delay",
+    "summary": "GuruFocus.com • 28/8/2026, 5:42:37 pm",
+    "source": "GuruFocus.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-sinks-google-ai-121237203.html",
+    "publishedAt": "2026-08-28T12:12:37.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "NIFTY 50 Sensex",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "d79f2b07-9ea0-3659-9219-15c1da6c0201",
+    "category": "india",
+    "title": "BRC Group to Redeem $142.1 Million of 6.50% Senior Notes Due 2026",
+    "summary": "MT Newswires • 28/8/2026, 5:42:19 pm",
+    "source": "MT Newswires",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/brc-group-redeem-142-1-121219529.html",
+    "publishedAt": "2026-08-28T12:12:19.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "NIFTY 50 Sensex",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "239e5cbb-60b5-31c2-bc7c-50deed164804",
+    "category": "india",
+    "title": "Inspectors found Washington chemical tank unfit for service 10 months before failure that killed 11 workers, report says",
+    "summary": "Associated Press • 28/8/2026, 5:41:39 pm",
+    "source": "Associated Press",
+    "url": "https://finance.yahoo.com/m/239e5cbb-60b5-31c2-bc7c-50deed164804/inspectors-found-washington.html",
+    "publishedAt": "2026-08-28T12:11:39.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "NIFTY 50 Sensex",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "bdddb025-88e2-3844-be84-8b73d9d331ee",
+    "category": "india",
+    "title": "Arkema: Statement About the Number of Shares and Voting Rights in Compliance With the Article L.233-8 II of the French Commercial Code and the Article 223-16 of the Financial Markets Authority (AMF-Autorité des Marchés Financiers)",
+    "summary": "Business Wire • 28/8/2026, 5:40:00 pm",
+    "source": "Business Wire",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/arkema-statement-number-shares-voting-121000670.html",
+    "publishedAt": "2026-08-28T12:10:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "NIFTY 50 Sensex",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "e2aee23c-cce4-357a-8b51-9ef090af53b1",
+    "category": "india",
+    "title": "Freedom Home Care Expands Beyond North Shore With New Huntley Office",
+    "summary": "PR Newswire • 28/8/2026, 5:40:00 pm",
+    "source": "PR Newswire",
+    "url": "https://finance.yahoo.com/healthcare/articles/freedom-home-care-expands-beyond-121000465.html",
+    "publishedAt": "2026-08-28T12:10:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "NIFTY 50 Sensex",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "e550327e-8207-466f-928b-3061c3867d96",
+    "category": "india",
+    "title": "Silver price today, Friday, August 28, 2026: Silver rising before Warsh takes the stage",
+    "summary": "Yahoo Personal Finance • 28/8/2026, 5:39:57 pm",
+    "source": "Yahoo Personal Finance",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-august-28-2026-silver-rising-before-warsh-takes-the-stage-120957222.html",
+    "publishedAt": "2026-08-28T12:09:57.000Z",
     "sentiment": "neutral",
     "tags": [
       "India Stock Market",
@@ -60,13 +165,13 @@
     "symbols": []
   },
   {
-    "id": "2df5e45e-de6c-3d03-bc4d-0458e990ce95",
+    "id": "07fb021d-c51e-3f91-a2a2-74675303407e",
     "category": "india",
-    "title": "ANDRITZ selected for the next phase of Mactaquac hydropower plant",
-    "summary": "Energy Global • 28/8/2026, 5:30:00 pm",
-    "source": "Energy Global",
-    "url": "https://finance.yahoo.com/m/2df5e45e-de6c-3d03-bc4d-0458e990ce95/andritz-selected-for-the-next.html",
-    "publishedAt": "2026-08-28T12:00:00.000Z",
+    "title": "IREN Stock Plunges on $639 Million Impairment Charge",
+    "summary": "GuruFocus.com • 28/8/2026, 5:39:38 pm",
+    "source": "GuruFocus.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/iren-stock-plunges-639-million-120938838.html",
+    "publishedAt": "2026-08-28T12:09:38.000Z",
     "sentiment": "negative",
     "tags": [
       "India Stock Market",
@@ -75,13 +180,13 @@
     "symbols": []
   },
   {
-    "id": "e9a09699-6624-4bdc-9f0e-6cd55ac1a9f3",
+    "id": "ed8cecc1-318f-3486-bedd-ee2c49ec3ab7",
     "category": "india",
-    "title": "What investors need to watch Friday: Warsh, Jackson Hole and consumer sentiment",
-    "summary": "Yahoo Finance Video • 28/8/2026, 5:30:00 pm",
-    "source": "Yahoo Finance Video",
-    "url": "https://finance.yahoo.com/video/investors-watch-friday-warsh-jackson-120000403.html",
-    "publishedAt": "2026-08-28T12:00:00.000Z",
+    "title": "PayPal Shares Tank After Major Takeover Talks Collapse",
+    "summary": "GuruFocus.com • 28/8/2026, 5:38:21 pm",
+    "source": "GuruFocus.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-shares-tank-major-takeover-120821047.html",
+    "publishedAt": "2026-08-28T12:08:21.000Z",
     "sentiment": "neutral",
     "tags": [
       "India Stock Market",
@@ -90,88 +195,13 @@
     "symbols": []
   },
   {
-    "id": "1726084d-49a8-3e83-bae2-859a0e6a1bc9",
+    "id": "27d3042d-7597-3129-9f81-142ffcbcaf99",
     "category": "india",
-    "title": "RNC Looking For Lowest TV Ad Unit Pricing? Not Yet",
-    "summary": "MediaPost • 28/8/2026, 5:30:00 pm",
-    "source": "MediaPost",
-    "url": "https://finance.yahoo.com/m/1726084d-49a8-3e83-bae2-859a0e6a1bc9/rnc-looking-for-lowest-tv-ad.html",
-    "publishedAt": "2026-08-28T12:00:00.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "4f040e61-2050-3558-b53a-77b3e16e3694",
-    "category": "india",
-    "title": "Monness Crespi & Hardt Adjusts Workday Price Target to $218 From $202, Maintains Buy Rating",
-    "summary": "MT Newswires • 28/8/2026, 5:29:24 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/monness-crespi-hardt-adjusts-workday-115924996.html",
-    "publishedAt": "2026-08-28T11:59:24.000Z",
-    "sentiment": "positive",
-    "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "438e37a2-5a19-3bfc-84d6-c349162d52ad",
-    "category": "india",
-    "title": "Argus Research Downgrades Allstate to Hold From Buy",
-    "summary": "MT Newswires • 28/8/2026, 5:29:07 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/argus-research-downgrades-allstate-hold-115907173.html",
-    "publishedAt": "2026-08-28T11:59:07.000Z",
-    "sentiment": "positive",
-    "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "d36e5574-3684-33f9-9bb3-fa91e49edd2e",
-    "category": "india",
-    "title": "Klarna Group Insider Bought Shares Worth $9,949,164, According to a Recent SEC Filing",
-    "summary": "MT Newswires • 28/8/2026, 5:28:31 pm",
-    "source": "MT Newswires",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-group-insider-bought-shares-115831550.html",
-    "publishedAt": "2026-08-28T11:58:31.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "NIFTY 50 Sensex",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "638e52f8-2dd2-3a65-a2d0-4b2bdfe78ac2",
-    "category": "india",
-    "title": "Dollar heads for weekly gain as Warsh remarks awaited",
-    "summary": "Reuters • 28/8/2026, 5:27:08 pm",
-    "source": "Reuters",
-    "url": "https://finance.yahoo.com/news/dollar-flat-near-one-week-023614874.html",
-    "publishedAt": "2026-08-28T11:57:08.000Z",
-    "sentiment": "positive",
-    "tags": [
-      "India Stock Market",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "2e36cd18-af94-4b78-bf8c-84e7b431189a",
-    "category": "india",
-    "title": "Gold prices today, Friday, August 28, 2026: Gold steady as markets prepare for Warsh speech",
-    "summary": "Yahoo Personal Finance • 28/8/2026, 5:26:54 pm",
-    "source": "Yahoo Personal Finance",
-    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-28-2026-gold-steady-as-markets-prepare-for-warsh-speech-115654858.html",
-    "publishedAt": "2026-08-28T11:56:54.000Z",
+    "title": "Anthropic Is Chasing a $2T Valuation — A Wall Street Veteran Says Its Biggest IPO Risk Isn't What Investors Think",
+    "summary": "Benzinga Private Markets • 28/8/2026, 5:38:00 pm",
+    "source": "Benzinga Private Markets",
+    "url": "https://finance.yahoo.com/m/27d3042d-7597-3129-9f81-142ffcbcaf99/anthropic-is-chasing-a-%242t.html",
+    "publishedAt": "2026-08-28T12:08:00.000Z",
     "sentiment": "neutral",
     "tags": [
       "India Stock Market",
@@ -180,13 +210,73 @@
     "symbols": []
   },
   {
-    "id": "7fa47052-899c-30a3-b264-91d5013fffc2",
+    "id": "45fec1f0-6c7c-3d41-be9a-57d052086a3f",
     "category": "india",
-    "title": "Procam launches 'HDOR - 100 Days of Running' in a whole new avatar turning 100 days of movement into habits for life",
-    "summary": "PR Newswire • 28/8/2026, 5:25:00 pm",
+    "title": "What's Going On With ServiceNow Stock",
+    "summary": "GuruFocus.com • 28/8/2026, 5:37:42 pm",
+    "source": "GuruFocus.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/whats-going-servicenow-stock-120742367.html",
+    "publishedAt": "2026-08-28T12:07:42.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "India Stock Market",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "3eb3d1a4-3937-36f3-94a0-56fc9c66ca1a",
+    "category": "india",
+    "title": "What happens to Social Security when you retire at 55? Early freedom might cost you — but here’s how to do it",
+    "summary": "Moneywise • 28/8/2026, 5:35:00 pm",
+    "source": "Moneywise",
+    "url": "https://finance.yahoo.com/markets/articles/happens-social-security-retire-55-120500410.html",
+    "publishedAt": "2026-08-28T12:05:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "India Stock Market",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "895eaea2-0047-3705-af67-973f4d9b7ad3",
+    "category": "india",
+    "title": "Are you waiting too long to retire? Here are 3 surprising statistics that may make you want to set a date ASAP",
+    "summary": "Moneywise • 28/8/2026, 5:35:00 pm",
+    "source": "Moneywise",
+    "url": "https://finance.yahoo.com/small-business/articles/waiting-too-long-retire-3-120500355.html",
+    "publishedAt": "2026-08-28T12:05:00.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "India Stock Market",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "e4fbadce-a2de-34ca-96aa-78dd2beb56e7",
+    "category": "india",
+    "title": "Can Frasers Group revive Harvey Nichols?",
+    "summary": "Just Style • 28/8/2026, 5:34:49 pm",
+    "source": "Just Style",
+    "url": "https://finance.yahoo.com/m/e4fbadce-a2de-34ca-96aa-78dd2beb56e7/can-frasers-group-revive.html",
+    "publishedAt": "2026-08-28T12:04:49.000Z",
+    "sentiment": "neutral",
+    "tags": [
+      "India Stock Market",
+      "INDIA"
+    ],
+    "symbols": []
+  },
+  {
+    "id": "1b1456a0-3ec3-30c5-b49e-b34c067ef113",
+    "category": "india",
+    "title": "vAuto Launches Test Drive, New Initiative to Scale and Speed Product Innovations",
+    "summary": "PR Newswire • 28/8/2026, 5:34:00 pm",
     "source": "PR Newswire",
-    "url": "https://finance.yahoo.com/media-advertising/articles/procam-launches-hdor-100-days-115500418.html",
-    "publishedAt": "2026-08-28T11:55:00.000Z",
+    "url": "https://finance.yahoo.com/technology/ai/articles/vauto-launches-test-drive-initiative-120400235.html",
+    "publishedAt": "2026-08-28T12:04:00.000Z",
     "sentiment": "neutral",
     "tags": [
       "India Stock Market",
@@ -195,43 +285,13 @@
     "symbols": []
   },
   {
-    "id": "c40a7a98-1f51-37ca-afe2-05ed3400e958",
+    "id": "5d74479a-99fe-343c-8ba9-4e576ab6d237",
     "category": "india",
-    "title": "Birch Hill Acquires Common Shares of Pason Systems Inc.",
-    "summary": "CNW Group • 28/8/2026, 5:25:00 pm",
-    "source": "CNW Group",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/birch-hill-acquires-common-shares-115500640.html",
-    "publishedAt": "2026-08-28T11:55:00.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "India Stock Market",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "2ac60f48-81e4-3ae1-9491-766ac144a73e",
-    "category": "india",
-    "title": "'Ran for our lives': Tales of survival from Nepal-China disaster",
-    "summary": "AFP • 28/8/2026, 5:23:11 pm",
-    "source": "AFP",
-    "url": "https://finance.yahoo.com/m/2ac60f48-81e4-3ae1-9491-766ac144a73e/%27ran-for-our-lives%27%3A-tales-of.html",
-    "publishedAt": "2026-08-28T11:53:11.000Z",
-    "sentiment": "neutral",
-    "tags": [
-      "India Stock Market",
-      "INDIA"
-    ],
-    "symbols": []
-  },
-  {
-    "id": "164de247-8f06-3cef-9954-9bc83cc93d92",
-    "category": "india",
-    "title": "Plaza Auto Mall Helps Brooklyn Students Start School Ready With Hundreds of Free Backpacks and Supply Kits",
-    "summary": "PR Newswire • 28/8/2026, 5:23:00 pm",
+    "title": "Virginia Cancer Specialists Welcomes Kai-Li Liang, MD, Expanding Access to Innovative Cancer Research Across the Mid-Atlantic",
+    "summary": "PR Newswire • 28/8/2026, 5:34:00 pm",
     "source": "PR Newswire",
-    "url": "https://finance.yahoo.com/small-business/articles/plaza-auto-mall-helps-brooklyn-115300834.html",
-    "publishedAt": "2026-08-28T11:53:00.000Z",
+    "url": "https://finance.yahoo.com/healthcare/articles/virginia-cancer-specialists-welcomes-kai-120400519.html",
+    "publishedAt": "2026-08-28T12:04:00.000Z",
     "sentiment": "neutral",
     "tags": [
       "India Stock Market",

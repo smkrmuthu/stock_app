@@ -30,7 +30,7 @@ export function renderNewsCard(article, index) {
     >
       <div class="news-card__meta">
         <span class="news-card__source">${article.source}</span>
-        <span class="news-card__time" title="${new Date(article.publishedAt).toLocaleString('en-IN')}">
+        <span class="news-card__time" title="${new Date(article.publishedAt).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}">
           ${formatRelativeTime(article.publishedAt)}
         </span>
       </div>
@@ -41,10 +41,10 @@ export function renderNewsCard(article, index) {
         ? `<p class="news-card__summary">${article.summary}</p>`
         : ''}
 
-      <div style="display: flex; align-items: center; justify-content: space-between; margin-top: var(--space-1);">
-        ${tagsHtml
-          ? `<div class="news-card__tags">${tagsHtml}</div>`
-          : '<div></div>'}
+      <div class="news-card__footer">
+        <div class="news-card__tags">
+          ${tagsHtml}
+        </div>
         <span class="sentiment-badge ${article.sentiment}">
           ${sentimentEmoji} ${article.sentiment}
         </span>

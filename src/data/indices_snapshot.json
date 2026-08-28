@@ -65,9 +65,9 @@
   {
     "symbol": "CRUDE OIL",
     "yahooTicker": "CL%3DF",
-    "price": "83.00",
-    "change": "-0.53",
-    "changePct": "-0.63%",
+    "price": "82.96",
+    "change": "-0.57",
+    "changePct": "-0.68%",
     "positive": false,
     "prefix": "$"
   },

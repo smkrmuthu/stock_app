@@ -22,7 +22,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:18.393Z"
+    "_fetchedAt": "2026-08-28T12:20:09.317Z"
   },
   "TCS": {
     "symbol": "TCS",
@@ -47,7 +47,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:18.690Z"
+    "_fetchedAt": "2026-08-28T12:20:09.621Z"
   },
   "INFY": {
     "symbol": "INFY",
@@ -72,7 +72,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:19.010Z"
+    "_fetchedAt": "2026-08-28T12:20:09.915Z"
   },
   "HDFCBANK": {
     "symbol": "HDFCBANK",
@@ -97,7 +97,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:19.382Z"
+    "_fetchedAt": "2026-08-28T12:20:10.382Z"
   },
   "ICICIBANK": {
     "symbol": "ICICIBANK",
@@ -122,7 +122,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:19.701Z"
+    "_fetchedAt": "2026-08-28T12:20:10.708Z"
   },
   "SBIN": {
     "symbol": "SBIN",
@@ -147,7 +147,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:20.317Z"
+    "_fetchedAt": "2026-08-28T12:20:11.011Z"
   },
   "LT": {
     "symbol": "LT",
@@ -172,7 +172,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:20.616Z"
+    "_fetchedAt": "2026-08-28T12:20:11.326Z"
   },
   "ITC": {
     "symbol": "ITC",
@@ -197,7 +197,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:20.996Z"
+    "_fetchedAt": "2026-08-28T12:20:11.622Z"
   },
   "BHARTIARTL": {
     "symbol": "BHARTIARTL",
@@ -222,7 +222,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:21.292Z"
+    "_fetchedAt": "2026-08-28T12:20:11.918Z"
   },
   "TATASTEEL": {
     "symbol": "TATASTEEL",
@@ -247,7 +247,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:21.589Z"
+    "_fetchedAt": "2026-08-28T12:20:12.289Z"
   },
   "HATSUN": {
     "symbol": "HATSUN",
@@ -272,7 +272,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:21.883Z"
+    "_fetchedAt": "2026-08-28T12:20:12.595Z"
   },
   "DODLA": {
     "symbol": "DODLA",
@@ -297,7 +297,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:22.879Z"
+    "_fetchedAt": "2026-08-28T12:20:13.514Z"
   },
   "20MICRONS": {
     "symbol": "20MICRONS",
@@ -322,7 +322,7 @@
     "dividendYield": 0,
     "currency": "INR",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:23.482Z"
+    "_fetchedAt": "2026-08-28T12:20:14.115Z"
   },
   "AAPL": {
     "symbol": "AAPL",
@@ -347,7 +347,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:23.806Z"
+    "_fetchedAt": "2026-08-28T12:20:14.421Z"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -372,7 +372,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:23.970Z"
+    "_fetchedAt": "2026-08-28T12:20:14.823Z"
   },
   "NVDA": {
     "symbol": "NVDA",
@@ -397,7 +397,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:24.280Z"
+    "_fetchedAt": "2026-08-28T12:20:15.051Z"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -422,7 +422,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:24.445Z"
+    "_fetchedAt": "2026-08-28T12:20:15.417Z"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -447,7 +447,7 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:24.753Z"
+    "_fetchedAt": "2026-08-28T12:20:15.728Z"
   },
   "AMZN": {
     "symbol": "AMZN",
@@ -472,6 +472,6 @@
     "dividendYield": 0,
     "currency": "USD",
     "_source": "official-exchange-live",
-    "_fetchedAt": "2026-08-28T12:05:25.101Z"
+    "_fetchedAt": "2026-08-28T12:20:16.046Z"
   }
 }
