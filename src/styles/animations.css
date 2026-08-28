@@ -1,0 +1,188 @@
+/* =========================================================
+   animations.css — Keyframes and Transition Effects
+   ========================================================= */
+
+/* ── Keyframes ─────────────────────────────────────────── */
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(0.8); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes priceFlashPositive {
+  0%   { background: transparent; }
+  25%  { background: rgba(16, 185, 129, 0.2); }
+  100% { background: transparent; }
+}
+
+@keyframes priceFlashNegative {
+  0%   { background: transparent; }
+  25%  { background: rgba(239, 68, 68, 0.2); }
+  100% { background: transparent; }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(59, 130, 246, 0.3); }
+  50%       { box-shadow: 0 0 24px rgba(59, 130, 246, 0.6); }
+}
+
+/* ── Utility Animation Classes ─────────────────────────── */
+
+.animate-fadeIn      { animation: fadeIn 0.4s ease forwards; }
+.animate-fadeInUp    { animation: fadeInUp 0.4s ease forwards; }
+.animate-fadeInDown  { animation: fadeInDown 0.4s ease forwards; }
+.animate-slideRight  { animation: slideInRight 0.35s ease forwards; }
+.animate-slideLeft   { animation: slideInLeft 0.35s ease forwards; }
+.animate-scaleIn     { animation: scaleIn 0.3s ease forwards; }
+
+/* Stagger animation delays for list items */
+.stagger-1  { animation-delay: 0.05s; }
+.stagger-2  { animation-delay: 0.10s; }
+.stagger-3  { animation-delay: 0.15s; }
+.stagger-4  { animation-delay: 0.20s; }
+.stagger-5  { animation-delay: 0.25s; }
+.stagger-6  { animation-delay: 0.30s; }
+.stagger-7  { animation-delay: 0.35s; }
+.stagger-8  { animation-delay: 0.40s; }
+
+/* ── Skeleton Loading ─────────────────────────────────── */
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-bg-card) 25%,
+    rgba(255,255,255,0.04) 50%,
+    var(--color-bg-card) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-sm);
+  color: transparent !important;
+}
+
+.skeleton-text {
+  height: 14px;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-title {
+  height: 28px;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-card {
+  height: 100px;
+  border-radius: var(--radius-lg);
+}
+
+/* ── Price Flash ────────────────────────────────────────── */
+.price-flash-positive {
+  animation: priceFlashPositive 0.6s ease;
+}
+
+.price-flash-negative {
+  animation: priceFlashNegative 0.6s ease;
+}
+
+/* ── Hover Lift ─────────────────────────────────────────── */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ── Glow Pulse ─────────────────────────────────────────── */
+.glow-pulse {
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+/* ── Respect reduced motion ─────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

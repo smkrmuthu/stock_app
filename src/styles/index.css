@@ -1,0 +1,230 @@
+/* =========================================================
+   index.css — Global Styles & Design Tokens
+   RETHEMED to the Modernist design system:
+   flat, architectural, Archivo, near-mono red on a light ground,
+   zero corner radius, strong 2px rules, no gradients or glows.
+
+   The variable NAMES are unchanged, so layout.css and
+   components.css re-theme themselves with no edits.
+   ========================================================= */
+
+/* ── Fonts ─────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap');
+
+/* ── Design Tokens ─────────────────────────────────────── */
+:root {
+  /* Modernist source tokens */
+  --ds-bg:            #f3f2f2;
+  --ds-surface:       #eae9e9;
+  --ds-text:          #201e1d;
+  --ds-accent:        #ec3013;
+  --ds-divider:       color-mix(in srgb, #201e1d 40%, transparent);
+
+  --ds-neutral-100: #f8f4f4;
+  --ds-neutral-200: #eae7e7;
+  --ds-neutral-300: #d7d3d3;
+  --ds-neutral-400: #bab6b6;
+  --ds-neutral-500: #9b9797;
+  --ds-neutral-600: #7d7979;
+  --ds-neutral-700: #605d5d;
+  --ds-neutral-800: #444141;
+  --ds-neutral-900: #2d2b2b;
+
+  --ds-accent-100: #fff2ef;
+  --ds-accent-200: #ffe0d9;
+  --ds-accent-300: #ffc4b8;
+  --ds-accent-400: #ff9783;
+  --ds-accent-500: #ff563c;
+  --ds-accent-600: #dd2b0f;
+  --ds-accent-700: #ae1800;
+  --ds-accent-800: #7c1405;
+  --ds-accent-900: #4d170e;
+
+  /* ── Surfaces — a light ground, no dark terminal ─────── */
+  --color-bg-primary:       var(--ds-bg);
+  --color-bg-secondary:     var(--ds-surface);
+  --color-bg-card:          var(--ds-surface);
+  --color-bg-card-hover:    var(--ds-neutral-200);
+  --color-bg-input:         var(--ds-surface);
+  --color-bg-sidebar:       var(--ds-bg);
+  --color-bg-topbar:        var(--ds-bg);
+  --color-bg-panel:         var(--ds-bg);
+
+  /* ── Brand — the single accent, used sparingly ───────── */
+  --color-brand:            var(--ds-accent);
+  --color-brand-light:      var(--ds-accent-700); /* text-safe on the light ground */
+  --color-brand-dark:       var(--ds-accent-800);
+  --color-brand-glow:       transparent;
+
+  /* Secondary accents are folded into the mono scheme */
+  --color-accent-teal:      var(--ds-neutral-800);
+  --color-accent-purple:    var(--ds-accent-700);
+  --color-accent-amber:     var(--ds-accent-600);
+
+  /* ── Semantic — mono: gains in ink, losses in the accent ── */
+  --color-positive:         var(--ds-neutral-900);
+  --color-positive-light:   var(--ds-neutral-800);
+  --color-positive-bg:      var(--ds-neutral-100);
+  --color-negative:         var(--ds-accent-700);
+  --color-negative-light:   var(--ds-accent-600);
+  --color-negative-bg:      var(--ds-accent-100);
+  --color-neutral:          var(--ds-neutral-600);
+  --color-neutral-bg:       var(--ds-neutral-100);
+
+  /* ── Text ───────────────────────────────────────────── */
+  --color-text-primary:     var(--ds-text);
+  --color-text-secondary:   var(--ds-neutral-700);
+  --color-text-muted:       var(--ds-neutral-600);
+  --color-text-accent:      var(--ds-accent-700);
+
+  /* ── Borders — rules are strong, never hairline ─────── */
+  --color-border:           var(--ds-divider);
+  --color-border-subtle:    color-mix(in srgb, var(--ds-text) 18%, transparent);
+  --color-border-focus:     var(--ds-accent);
+
+  /* ── Gradients flattened to single fields ───────────── */
+  --gradient-brand:         var(--ds-accent);
+  --gradient-positive:      var(--ds-neutral-900);
+  --gradient-negative:      var(--ds-accent);
+  --gradient-card:          var(--ds-surface);
+  --gradient-sidebar:       var(--ds-bg);
+
+  /* ── No glows in a flat system ──────────────────────── */
+  --glow-brand:             none;
+  --glow-positive:          none;
+  --glow-negative:          none;
+
+  /* ── Typography — Archivo over Archivo ──────────────── */
+  --font-sans:              'Archivo', system-ui, -apple-system, sans-serif;
+  --font-mono:              'Archivo', system-ui, sans-serif; /* tabular numerals, not a mono face */
+
+  --text-xs:    0.6875rem;   /* 11px */
+  --text-sm:    0.8125rem;   /* 13px */
+  --text-base:  0.9375rem;   /* 15px — the system's body size */
+  --text-md:    1rem;
+  --text-lg:    1.125rem;
+  --text-xl:    1.25rem;
+  --text-2xl:   1.5625rem;   /* 25px — h3 */
+  --text-3xl:   2rem;        /* 32px — h2 */
+  --text-4xl:   2.625rem;    /* 42px — h1 */
+
+  --fw-light:   400;
+  --fw-regular: 400;
+  --fw-medium:  400;
+  --fw-semibold:600;
+  --fw-bold:    800;
+  --fw-extrabold: 800;
+
+  /* ── Spacing — the 1.00× scale ──────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ── Radius — zero, everywhere, on purpose ──────────── */
+  --radius-sm:   0px;
+  --radius-md:   0px;
+  --radius-lg:   0px;
+  --radius-xl:   0px;
+  --radius-full: 0px;
+
+  /* ── Elevation — tuned to the light ground ──────────── */
+  --shadow-sm:   0 1px 2px color-mix(in srgb, #2d2b2b 14%, transparent);
+  --shadow-md:   0 3px 10px color-mix(in srgb, #2d2b2b 16%, transparent);
+  --shadow-lg:   0 12px 32px color-mix(in srgb, #2d2b2b 22%, transparent);
+  --shadow-card: none;
+
+  --transition-fast:   all 0.12s ease;
+  --transition-base:   all 0.16s ease;
+  --transition-slow:   all 0.24s ease;
+
+  /* ── Layout ─────────────────────────────────────────── */
+  --sidebar-width:      248px;
+  --topbar-height:      64px;
+  --news-panel-width:   380px;
+}
+
+/* ── Reset & Base ─────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: var(--fw-regular);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ── Typography ───────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-bold);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--color-text-primary);
+}
+
+h1 { font-size: var(--text-4xl); }
+h2 { font-size: var(--text-3xl); }
+h3 { font-size: var(--text-2xl); }
+
+a {
+  color: var(--color-text-accent);
+  text-decoration: none;
+  text-underline-offset: 3px;
+  transition: var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-brand);
+  text-decoration: underline;
+}
+
+/* ── Scrollbar ────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ds-neutral-400);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ds-neutral-600);
+}
+
+/* ── Focus — the 2px accent ring, never browser blue ─── */
+:focus { outline: none; }
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 0;
+}
+
+/* ── Selection ────────────────────────────────────────── */
+::selection {
+  background: color-mix(in srgb, var(--ds-accent) 30%, transparent);
+  color: var(--color-text-primary);
+}
