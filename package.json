@@ -10,7 +10,7 @@
     "dev:api": "node server.js",
     "build": "node scripts/sync-market-data.js && vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
-    "deploy": "node scripts/sync-market-data.js && vite build && gh-pages -d dist"
+    "deploy": "node scripts/sync-market-data.js && vite build && cp dist/index.html dist/404.html && gh-pages -d dist --user \"Muthu Kumar <smkrmuthu@gmail.com>\""
   },
   "devDependencies": {
     "concurrently": "^10.0.5",
