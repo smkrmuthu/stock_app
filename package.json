@@ -4,12 +4,13 @@
   "description": "Professional Stock Market Trading Dashboard — Extensible Architecture",
   "type": "module",
   "scripts": {
+    "sync": "node scripts/sync-market-data.js",
     "dev": "concurrently -n api,vite -c blue,green \"node server.js\" \"vite\"",
     "dev:frontend": "vite",
     "dev:api": "node server.js",
-    "build": "vite build && cp dist/index.html dist/404.html",
+    "build": "node scripts/sync-market-data.js && vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "node scripts/sync-market-data.js && vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "concurrently": "^10.0.5",

@@ -18,19 +18,20 @@ import { StockStats } from './StockStats.js';
 import { CandlestickChart } from './CandlestickChart.js';
 import { formatCurrency, formatChange, formatChangeAmount, getDirection } from '../../utils/formatters.js';
 import { getNSEMarketStatus, getMarketStatusForExchange } from '../../utils/marketHours.js';
+import indicesSnapshot from '../../data/indices_snapshot.json';
 
 const QUICK_PICKS = ['RELIANCE', 'TCS', 'INFY', 'HDFCBANK', 'ICICIBANK', 'SBIN', 'LT', 'ITC', 'AAPL', 'TSLA', 'NVDA'];
 
-const TICKER_FALLBACK = [
-  { symbol: 'SENSEX',    yahooTicker: '%5EBSESN',   price: '77,534', change: '+624.95', changePct: '+0.81%', positive: true,  prefix: '' },
-  { symbol: 'NIFTY 50',  yahooTicker: '%5ENSEI',    price: '24,234', change: '+156.05', changePct: '+0.65%', positive: true,  prefix: '' },
-  { symbol: 'NIFTY BANK',yahooTicker: '%5ENSEBANK',  price: '57,660', change: '+421.10', changePct: '+0.74%', positive: true,  prefix: '' },
-  { symbol: 'S&P 500',   yahooTicker: '%5EGSPC',    price: '7,641',  change: '-66.82',  changePct: '-0.87%', positive: false, prefix: '' },
-  { symbol: 'NASDAQ',    yahooTicker: '%5EIXIC',    price: '19,847', change: '-95.10',  changePct: '-0.48%', positive: false, prefix: '' },
-  { symbol: 'DOW JONES', yahooTicker: '%5EDJI',     price: '44,218', change: '-162.40', changePct: '-0.37%', positive: false, prefix: '' },
-  { symbol: 'GOLD',      yahooTicker: 'GC%3DF',     price: '4,650',  change: '+79.10',  changePct: '+1.73%', positive: true,  prefix: '$' },
-  { symbol: 'CRUDE OIL', yahooTicker: 'CL%3DF',     price: '72.4',   change: '+1.20',   changePct: '+1.69%', positive: true,  prefix: '$' },
-  { symbol: 'USD/INR',   yahooTicker: 'USDINR%3DX', price: '86.42',  change: '+0.035',  changePct: '+0.04%', positive: true,  prefix: '₹' },
+const TICKER_FALLBACK = indicesSnapshot && indicesSnapshot.length > 0 ? indicesSnapshot : [
+  { symbol: 'SENSEX',    yahooTicker: '%5EBSESN',   price: '77,264.51', change: '-208.39', changePct: '-0.27%', positive: false, prefix: '' },
+  { symbol: 'NIFTY 50',  yahooTicker: '%5ENSEI',    price: '24,175.65', change: '-32.15',  changePct: '-0.13%', positive: false, prefix: '' },
+  { symbol: 'NIFTY BANK',yahooTicker: '%5ENSEBANK',  price: '57,496.30', change: '-287.50', changePct: '-0.50%', positive: false, prefix: '' },
+  { symbol: 'S&P 500',   yahooTicker: '%5EGSPC',    price: '7,730.99',  change: '+55.29',  changePct: '+0.72%', positive: true,  prefix: '' },
+  { symbol: 'NASDAQ',    yahooTicker: '%5EIXIC',    price: '26,541.35', change: '+411.15', changePct: '+1.57%', positive: true,  prefix: '' },
+  { symbol: 'DOW JONES', yahooTicker: '%5EDJI',     price: '53,569.44', change: '+105.54', changePct: '+0.20%', positive: true,  prefix: '' },
+  { symbol: 'GOLD',      yahooTicker: 'GC%3DF',     price: '4,647.70',  change: '-16.80',  changePct: '-0.35%', positive: false, prefix: '$' },
+  { symbol: 'CRUDE OIL', yahooTicker: 'CL%3DF',     price: '83.11',     change: '-0.41',   changePct: '-0.50%', positive: false, prefix: '$' },
+  { symbol: 'USD/INR',   yahooTicker: 'USDINR%3DX', price: '95.37',     change: '-0.16',   changePct: '-0.17%', positive: false, prefix: '₹' },
 ];
 
 async function fetchBatchTickerQuotes(symbols) {
