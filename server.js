@@ -222,6 +222,64 @@ app.get('/api/stock/ticker-batch/:symbols', async (req, res) => {
   res.json(results);
 });
 
+// ─── GET /api/news — Live Market News Endpoint ──────────────────────────────
+app.get('/api/news', async (req, res) => {
+  const category = (req.query.category || 'india').toLowerCase();
+  const symbol = req.query.symbol;
+  const cacheKey = `news:${category}:${symbol || ''}`;
+
+  const cached = getCached(cacheKey);
+  if (cached) return res.json(cached);
+
+  let searchTerms = ['India Stock Market', 'NIFTY', 'Sensex'];
+  if (category === 'world') {
+    searchTerms = ['Global Markets', 'Wall Street', 'Tech Stocks'];
+  } else if (symbol) {
+    searchTerms = [symbol, `${symbol} Stock`];
+  }
+
+  const allNews = [];
+  const seenTitles = new Set();
+
+  for (const query of searchTerms) {
+    try {
+      const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(query)}&newsCount=10`;
+      const resp = await fetch(url, { headers: YAHOO_HEADERS });
+      if (resp.ok) {
+        const json = await resp.json();
+        for (const n of (json?.news || [])) {
+          if (n.title && !seenTitles.has(n.title.toLowerCase())) {
+            seenTitles.add(n.title.toLowerCase());
+            const title = n.title;
+            const isPos = /surge|gain|jump|rally|rise|bull|record|growth|profit|dividend|buy|upgrade/i.test(title);
+            const isNeg = /fall|drop|plunge|crash|bear|loss|downgrade|slump|decline|sell|retreat/i.test(title);
+            const sentiment = isPos ? 'positive' : isNeg ? 'negative' : 'neutral';
+
+            allNews.push({
+              id: n.uuid || `news-${Math.random().toString(36).slice(2, 9)}`,
+              category: category === 'world' ? 'world' : 'india',
+              title: n.title,
+              summary: `${n.publisher || 'Financial Times'} • ${n.providerPublishTime ? new Date(n.providerPublishTime * 1000).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) : 'Live'}`,
+              source: n.publisher || 'Market Wire',
+              url: n.link || 'https://finance.yahoo.com',
+              publishedAt: n.providerPublishTime ? new Date(n.providerPublishTime * 1000).toISOString() : new Date().toISOString(),
+              sentiment,
+              tags: [query, category.toUpperCase()],
+              symbols: symbol ? [symbol.toUpperCase()] : [],
+            });
+          }
+        }
+      }
+    } catch (e) {
+      console.warn(`[server] News fetch failed for ${query}:`, e.message);
+    }
+  }
+
+  allNews.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  setCache(cacheKey, allNews, 120_000); // 2 min cache
+  res.json(allNews);
+});
+
 // ─── Health check ───────────────────────────────────────────────────────────
 app.get('/api/health', (req, res) => {
   res.json({

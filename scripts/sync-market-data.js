@@ -177,6 +177,56 @@ async function syncAll() {
   const indicesPath = path.resolve(__dirname, '../src/data/indices_snapshot.json');
   fs.writeFileSync(indicesPath, JSON.stringify(indicesList, null, 2), 'utf-8');
   console.log(`✅ Indices snapshot saved to ${indicesPath} (${indicesList.length} indices)`);
+
+  console.log('\n🔄 Fetching live market news headlines...');
+  const newsQueries = [
+    { q: 'India Stock Market', cat: 'india' },
+    { q: 'NIFTY 50 Sensex', cat: 'india' },
+    { q: 'Global Markets Business', cat: 'world' },
+    { q: 'Wall Street Economy', cat: 'world' },
+  ];
+
+  const newsList = [];
+  const seenTitles = new Set();
+
+  for (const { q, cat } of newsQueries) {
+    try {
+      const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&newsCount=10`;
+      const resp = await fetch(url, { headers: YAHOO_HEADERS });
+      if (resp.ok) {
+        const json = await resp.json();
+        for (const n of (json?.news || [])) {
+          if (n.title && !seenTitles.has(n.title.toLowerCase())) {
+            seenTitles.add(n.title.toLowerCase());
+            const title = n.title;
+            const isPos = /surge|gain|jump|rally|rise|bull|record|growth|profit|dividend|buy|upgrade/i.test(title);
+            const isNeg = /fall|drop|plunge|crash|bear|loss|downgrade|slump|decline|sell|retreat/i.test(title);
+            const sentiment = isPos ? 'positive' : isNeg ? 'negative' : 'neutral';
+
+            newsList.push({
+              id: n.uuid || `news-${cat}-${newsList.length + 1}`,
+              category: cat,
+              title: n.title,
+              summary: `${n.publisher || 'Financial Wire'} • ${n.providerPublishTime ? new Date(n.providerPublishTime * 1000).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) : 'Live'}`,
+              source: n.publisher || 'Market Wire',
+              url: n.link || 'https://finance.yahoo.com',
+              publishedAt: n.providerPublishTime ? new Date(n.providerPublishTime * 1000).toISOString() : new Date().toISOString(),
+              sentiment,
+              tags: [q, cat.toUpperCase()],
+              symbols: [],
+            });
+          }
+        }
+      }
+    } catch (e) {
+      console.warn(`[sync] Failed news for ${q}:`, e.message);
+    }
+  }
+
+  newsList.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  const newsPath = path.resolve(__dirname, '../src/data/news_snapshot.json');
+  fs.writeFileSync(newsPath, JSON.stringify(newsList, null, 2), 'utf-8');
+  console.log(`✅ News snapshot saved to ${newsPath} (${newsList.length} articles)`);
 }
 
 syncAll();
