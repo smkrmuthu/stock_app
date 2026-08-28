@@ -5,13 +5,16 @@
 
 import { eventBus, EVENTS } from '../../core/EventBus.js';
 import { StockSearch } from '../dashboard/StockSearch.js';
+import { getNSEMarketStatus } from '../../utils/marketHours.js';
 
 export class TopBar {
   constructor() {
     this._element = null;
+    this._clockTimer = null;
   }
 
   render(container) {
+    const status = getNSEMarketStatus();
     const el = document.createElement('header');
     el.className = 'topbar';
     el.setAttribute('role', 'banner');
@@ -27,11 +30,11 @@ export class TopBar {
       <div class="topbar__center" id="topbar-search-slot"></div>
 
       <div class="topbar__right">
-        <div class="market-badge" id="market-status-badge" title="Market Status">
+        <div class="market-badge" id="market-status-badge" title="${status.description}">
           <span class="market-badge__dot"></span>
-          <span id="market-status-label">NSE Open</span>
+          <span id="market-status-label">${status.statusLabel}</span>
         </div>
-        <div class="last-updated" id="clock-display">
+        <div class="last-updated" id="clock-display" title="Indian Standard Time (IST)">
           <span id="current-time">--:--:--</span>
           <span style="color: var(--color-text-muted)">IST</span>
         </div>
@@ -46,7 +49,7 @@ export class TopBar {
     const search = new StockSearch();
     search.render(searchSlot);
 
-    // Live clock
+    // Live clock and real-time market status
     this._startClock();
     this._updateMarketStatus();
   }
@@ -55,6 +58,7 @@ export class TopBar {
     const update = () => {
       const now = new Date();
       const timeStr = now.toLocaleTimeString('en-IN', {
+        timeZone: 'Asia/Kolkata',
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
@@ -62,41 +66,43 @@ export class TopBar {
       });
       const el = document.getElementById('current-time');
       if (el) el.textContent = timeStr;
+      this._updateMarketStatus();
     };
     update();
-    setInterval(update, 1000);
+    this._clockTimer = setInterval(update, 1000);
   }
 
   _updateMarketStatus() {
-    const now = new Date();
-    const hours = now.getHours();
-    const minutes = now.getMinutes();
-    const totalMins = hours * 60 + minutes;
-    const isWeekday = now.getDay() >= 1 && now.getDay() <= 5;
-
-    // NSE: 9:15 AM – 3:30 PM IST on weekdays
-    const nseOpen  = 9 * 60 + 15;
-    const nseClose = 15 * 60 + 30;
-
+    const status = getNSEMarketStatus();
     const badge = document.getElementById('market-status-badge');
     const label = document.getElementById('market-status-label');
 
     if (badge && label) {
-      const isOpen = isWeekday && totalMins >= nseOpen && totalMins < nseClose;
-      if (isOpen) {
+      badge.setAttribute('title', status.description);
+      label.textContent = status.statusLabel;
+
+      const dot = badge.querySelector('.market-badge__dot');
+      if (status.isOpen) {
         badge.style.background = 'var(--color-positive-bg)';
         badge.style.borderColor = 'rgba(16,185,129,0.3)';
         badge.style.color = 'var(--color-positive)';
-        badge.querySelector('.market-badge__dot').style.background = 'var(--color-positive)';
-        label.textContent = 'NSE Open';
+        if (dot) {
+          dot.style.background = 'var(--color-positive)';
+          dot.style.animation = 'pulse-badge 2s infinite';
+        }
       } else {
         badge.style.background = 'var(--color-negative-bg)';
-        badge.style.borderColor = 'rgba(239,68,68,0.2)';
+        badge.style.borderColor = 'rgba(239,68,68,0.25)';
         badge.style.color = 'var(--color-negative)';
-        badge.querySelector('.market-badge__dot').style.background = 'var(--color-negative)';
-        badge.querySelector('.market-badge__dot').style.animation = 'none';
-        label.textContent = 'NSE Closed';
+        if (dot) {
+          dot.style.background = 'var(--color-negative)';
+          dot.style.animation = 'none';
+        }
       }
     }
+  }
+
+  destroy() {
+    if (this._clockTimer) clearInterval(this._clockTimer);
   }
 }

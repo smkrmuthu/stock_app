@@ -17,6 +17,7 @@ import { PriceDisplay } from './PriceDisplay.js';
 import { StockStats } from './StockStats.js';
 import { CandlestickChart } from './CandlestickChart.js';
 import { formatCurrency, formatChange, formatChangeAmount, getDirection } from '../../utils/formatters.js';
+import { getNSEMarketStatus, getMarketStatusForExchange } from '../../utils/marketHours.js';
 
 const QUICK_PICKS = ['RELIANCE', 'TCS', 'INFY', 'HDFCBANK', 'ICICIBANK', 'SBIN', 'LT', 'ITC', 'AAPL', 'TSLA', 'NVDA'];
 
@@ -69,11 +70,16 @@ export class Dashboard {
     // Auto-load default active stock
     this._fetchAndRender(this._currentStockSymbol);
 
-    // Continuous ticker refresh
+    // Initial ticker fetch
     this._refreshTicker();
-    this._tickerRefreshTimer = setInterval(() => this._refreshTicker(), 15000);
 
-    // Live tick subscription for active quote
+    // Only start polling interval if market is currently OPEN
+    const marketStatus = getNSEMarketStatus();
+    if (marketStatus.isOpen) {
+      this._tickerRefreshTimer = setInterval(() => this._refreshTicker(), 30000);
+    }
+
+    // Live tick subscription for active quote (only active during open hours)
     this._unsubscribeTicks = stockService.subscribe((cache) => {
       this._handleLiveTick(cache);
     });
@@ -97,14 +103,7 @@ export class Dashboard {
     const updatedData = TICKER_FALLBACK.map((t) => {
       const live = results ? results[t.yahooTicker] : null;
       if (!live) {
-        // Small realistic micro-drift if live batch is offline
-        const drift = (Math.random() - 0.48) * 0.05;
-        const num = parseFloat(t.price.replace(/,/g, '')) + drift;
-        const isPos = drift >= 0;
-        return {
-          ...t,
-          price: num.toLocaleString('en-IN', { maximumFractionDigits: 2 }),
-        };
+        return t;
       }
       const fmt = (n) => n >= 1000
         ? n.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
@@ -123,6 +122,7 @@ export class Dashboard {
 
   _buildShell() {
     const tickerItems = this._buildTickerHTML(TICKER_FALLBACK);
+    const marketStatus = getNSEMarketStatus();
 
     const quickChips = QUICK_PICKS.map((sym) => `
       <button
@@ -151,9 +151,16 @@ export class Dashboard {
             </span>
             ${quickChips}
           </div>
-          <div class="market-badge" style="background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3); color: var(--color-positive);">
-            <span class="market-badge__dot" style="background: var(--color-positive);"></span>
-            <span id="live-feed-status">🟢 Live Market Stream</span>
+          <div class="market-badge" style="
+            background: ${marketStatus.isOpen ? 'var(--color-positive-bg)' : 'var(--color-negative-bg)'};
+            border: 1px solid ${marketStatus.isOpen ? 'rgba(16,185,129,0.3)' : 'rgba(239,68,68,0.25)'};
+            color: ${marketStatus.isOpen ? 'var(--color-positive)' : 'var(--color-negative)'};
+          ">
+            <span class="market-badge__dot" style="
+              background: ${marketStatus.isOpen ? 'var(--color-positive)' : 'var(--color-negative)'};
+              ${marketStatus.isOpen ? '' : 'animation: none;'}
+            "></span>
+            <span id="live-feed-status">${marketStatus.isOpen ? '🟢 Live Market Stream' : '🔴 ' + marketStatus.description}</span>
           </div>
         </div>
       </div>
@@ -208,6 +215,10 @@ export class Dashboard {
   _handleLiveTick(cache) {
     const activeStock = cache[this._currentStockSymbol];
     if (!activeStock) return;
+
+    // Do not alter or flash numbers if exchange is closed
+    const marketStatus = getMarketStatusForExchange(activeStock.exchange || 'NSE');
+    if (!marketStatus.isOpen) return;
 
     const priceEl = this._element?.querySelector('#live-price-display');
     const changeEl = this._element?.querySelector('#live-change-display');

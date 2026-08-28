@@ -9,6 +9,7 @@ import {
   formatChangeAmount,
   getDirection,
 } from '../../utils/formatters.js';
+import { getMarketStatusForExchange } from '../../utils/marketHours.js';
 
 export class PriceDisplay {
   render(stock) {
@@ -16,14 +17,26 @@ export class PriceDisplay {
     const locale    = currency === 'INR' ? 'en-IN' : 'en-US';
     const direction = getDirection(stock.change);
     const arrow     = direction === 'positive' ? '▲' : direction === 'negative' ? '▼' : '●';
+    const marketStatus = getMarketStatusForExchange(stock.exchange || 'NSE');
 
     return `
       <div class="stock-header animate-fadeInDown">
         <div class="stock-header__top">
           <div class="stock-header__meta">
-            <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-1);">
+            <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-1); flex-wrap: wrap;">
               <span class="stock-symbol">${stock.symbol}</span>
               <span class="stock-exchange-badge">${stock.exchange}</span>
+              <span style="
+                font-size: var(--text-xs);
+                padding: 2px 8px;
+                border-radius: var(--radius-full);
+                font-weight: var(--fw-semibold);
+                background: ${marketStatus.isOpen ? 'var(--color-positive-bg)' : 'var(--color-negative-bg)'};
+                border: 1px solid ${marketStatus.isOpen ? 'rgba(16,185,129,0.3)' : 'rgba(239,68,68,0.25)'};
+                color: ${marketStatus.isOpen ? 'var(--color-positive)' : 'var(--color-negative)'};
+              ">
+                ${marketStatus.tagText}
+              </span>
             </div>
             <div class="stock-company">${stock.companyName}</div>
             <div style="display: flex; gap: var(--space-2); margin-top: var(--space-2); flex-wrap: wrap;">
@@ -64,6 +77,9 @@ export class PriceDisplay {
               <span class="stock-change__arrow">${arrow}</span>
               <span>${formatChangeAmount(stock.change, currency, locale)}</span>
               <span>(${formatChange(stock.changePercent)})</span>
+            </div>
+            <div style="font-size: var(--text-xs); color: var(--color-text-muted); text-align: right; margin-top: 4px;">
+              ${marketStatus.isOpen ? '🟢 Real-time Market Quote' : '🔴 Market Closed • Official Close'}
             </div>
           </div>
         </div>

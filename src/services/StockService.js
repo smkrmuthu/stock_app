@@ -84,35 +84,6 @@ class StockService {
   constructor() {
     this._cache = { ...POPULAR_STOCKS };
     this._subscribers = new Set();
-    this._startLiveTickEngine();
-  }
-
-  _startLiveTickEngine() {
-    setInterval(() => {
-      Object.keys(this._cache).forEach((sym) => {
-        const item = this._cache[sym];
-        const drift = (Math.random() - 0.49) * 0.0015 * item.price;
-        const newPrice = +(item.price + drift).toFixed(2);
-        const change = +(newPrice - item.previousClose).toFixed(2);
-        const changePercent = +((change / item.previousClose) * 100).toFixed(2);
-        const high = Math.max(item.high, newPrice);
-        const low = Math.min(item.low, newPrice);
-        const volume = item.volume + Math.floor(Math.random() * 50);
-
-        this._cache[sym] = {
-          ...item,
-          price: newPrice,
-          change,
-          changePercent,
-          high,
-          low,
-          volume,
-          _lastTick: new Date().toISOString(),
-        };
-      });
-
-      this._notifySubscribers();
-    }, 3000);
   }
 
   subscribe(callback) {
